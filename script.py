@@ -20,7 +20,7 @@ repo = Repo(SYNAPSE_DIR)
 
 def search(string):
     result = subprocess.run(
-        ["grep", "-r", string, "synapse"],
+        ["grep", "-rE", "\\b" + string + "\\b", "synapse"],
         capture_output=True,
         cwd=SYNAPSE_DIR)
 
@@ -50,7 +50,7 @@ for commit in repo.iter_commits("develop"):
         repo.head.reset(index=True, working_tree=True)
 
         # Find the number of inlineCallback functions.
-        deferred_result = search("inlineCallback")
+        deferred_result = search("inlineCallbacks")
 
         # Find the number of async functions.
         async_result = search("async def")

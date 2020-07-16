@@ -29,7 +29,7 @@
             }
         ],
         [
-            857,
+            856,
             {
                 "synapse/app": 15,
                 "synapse/util": 2,
@@ -44,7 +44,7 @@
                 "synapse/replication": 44,
                 "synapse/server_notices": 11,
                 "synapse/handlers": 310,
-                "synapse/rest": 236
+                "synapse/rest": 235
             }
         ]
     ],
@@ -78,7 +78,7 @@
             }
         ],
         [
-            843,
+            842,
             {
                 "synapse/app": 15,
                 "synapse/util": 2,
@@ -93,7 +93,7 @@
                 "synapse/replication": 47,
                 "synapse/server_notices": 11,
                 "synapse/handlers": 299,
-                "synapse/rest": 236
+                "synapse/rest": 235
             }
         ]
     ],
@@ -127,7 +127,7 @@
             }
         ],
         [
-            840,
+            839,
             {
                 "synapse/app": 15,
                 "synapse/util": 2,
@@ -143,7 +143,7 @@
                 "synapse/server_notices": 11,
                 "synapse/handlers": 298,
                 "synapse/logging": 1,
-                "synapse/rest": 233
+                "synapse/rest": 232
             }
         ]
     ],
@@ -177,7 +177,7 @@
             }
         ],
         [
-            833,
+            832,
             {
                 "synapse/app": 15,
                 "synapse/util": 2,
@@ -193,7 +193,7 @@
                 "synapse/server_notices": 11,
                 "synapse/handlers": 291,
                 "synapse/logging": 1,
-                "synapse/rest": 233
+                "synapse/rest": 232
             }
         ]
     ],
@@ -227,7 +227,7 @@
             }
         ],
         [
-            819,
+            818,
             {
                 "synapse/app": 14,
                 "synapse/util": 2,
@@ -243,7 +243,7 @@
                 "synapse/server_notices": 11,
                 "synapse/handlers": 281,
                 "synapse/logging": 1,
-                "synapse/rest": 233
+                "synapse/rest": 232
             }
         ]
     ],
@@ -277,7 +277,7 @@
             }
         ],
         [
-            812,
+            811,
             {
                 "synapse/app": 14,
                 "synapse/util": 2,
@@ -293,7 +293,7 @@
                 "synapse/server_notices": 11,
                 "synapse/handlers": 274,
                 "synapse/logging": 1,
-                "synapse/rest": 233
+                "synapse/rest": 232
             }
         ]
     ],
@@ -327,7 +327,7 @@
             }
         ],
         [
-            750,
+            749,
             {
                 "synapse/app": 13,
                 "synapse/util": 2,
@@ -343,7 +343,7 @@
                 "synapse/server_notices": 11,
                 "synapse/handlers": 251,
                 "synapse/logging": 1,
-                "synapse/rest": 228
+                "synapse/rest": 227
             }
         ]
     ],
@@ -377,7 +377,7 @@
             }
         ],
         [
-            736,
+            735,
             {
                 "synapse/app": 12,
                 "synapse/util": 2,
@@ -393,7 +393,7 @@
                 "synapse/server_notices": 11,
                 "synapse/handlers": 237,
                 "synapse/logging": 1,
-                "synapse/rest": 228
+                "synapse/rest": 227
             }
         ]
     ],
@@ -427,7 +427,7 @@
             }
         ],
         [
-            710,
+            709,
             {
                 "synapse/app": 10,
                 "synapse/util": 2,
@@ -442,7 +442,7 @@
                 "synapse/server_notices": 11,
                 "synapse/handlers": 234,
                 "synapse/logging": 1,
-                "synapse/rest": 228
+                "synapse/rest": 227
             }
         ]
     ],
@@ -476,7 +476,7 @@
             }
         ],
         [
-            655,
+            654,
             {
                 "synapse/app": 10,
                 "synapse/util": 2,
@@ -491,7 +491,7 @@
                 "synapse/server_notices": 11,
                 "synapse/handlers": 192,
                 "synapse/logging": 1,
-                "synapse/rest": 221
+                "synapse/rest": 220
             }
         ]
     ],
@@ -525,7 +525,7 @@
             }
         ],
         [
-            653,
+            652,
             {
                 "synapse/app": 10,
                 "synapse/util": 2,
@@ -540,7 +540,7 @@
                 "synapse/server_notices": 11,
                 "synapse/handlers": 192,
                 "synapse/logging": 1,
-                "synapse/rest": 221
+                "synapse/rest": 220
             }
         ]
     ],
@@ -576,7 +576,7 @@
             }
         ],
         [
-            581,
+            580,
             {
                 "synapse/app": 10,
                 "synapse/util": 2,
@@ -588,7 +588,7 @@
                 "synapse/replication": 43,
                 "synapse/handlers": 150,
                 "synapse/logging": 1,
-                "synapse/rest": 220
+                "synapse/rest": 219
             }
         ]
     ],
@@ -624,7 +624,7 @@
             }
         ],
         [
-            572,
+            571,
             {
                 "synapse/app": 9,
                 "synapse/util": 2,
@@ -636,7 +636,7 @@
                 "synapse/replication": 41,
                 "synapse/handlers": 144,
                 "synapse/logging": 1,
-                "synapse/rest": 220
+                "synapse/rest": 219
             }
         ]
     ],
@@ -672,7 +672,7 @@
             }
         ],
         [
-            553,
+            552,
             {
                 "synapse/app": 9,
                 "synapse/util": 2,
@@ -684,7 +684,7 @@
                 "synapse/replication": 40,
                 "synapse/handlers": 126,
                 "synapse/logging": 1,
-                "synapse/rest": 220
+                "synapse/rest": 219
             }
         ]
     ],
@@ -720,7 +720,7 @@
             }
         ],
         [
-            557,
+            556,
             {
                 "synapse/app": 10,
                 "synapse/util": 2,
@@ -731,7 +731,7 @@
                 "synapse/replication": 49,
                 "synapse/handlers": 125,
                 "synapse/logging": 1,
-                "synapse/rest": 220
+                "synapse/rest": 219
             }
         ]
     ],
@@ -767,7 +767,7 @@
             }
         ],
         [
-            553,
+            552,
             {
                 "synapse/app": 9,
                 "synapse/util": 2,
@@ -778,7 +778,7 @@
                 "synapse/replication": 47,
                 "synapse/handlers": 126,
                 "synapse/logging": 1,
-                "synapse/rest": 220
+                "synapse/rest": 219
             }
         ]
     ],
@@ -814,7 +814,7 @@
             }
         ],
         [
-            548,
+            547,
             {
                 "synapse/app": 9,
                 "synapse/util": 2,
@@ -825,7 +825,7 @@
                 "synapse/replication": 46,
                 "synapse/handlers": 123,
                 "synapse/logging": 1,
-                "synapse/rest": 220
+                "synapse/rest": 219
             }
         ]
     ],
@@ -861,7 +861,7 @@
             }
         ],
         [
-            530,
+            529,
             {
                 "synapse/app": 9,
                 "synapse/util": 2,
@@ -872,7 +872,7 @@
                 "synapse/replication": 46,
                 "synapse/handlers": 123,
                 "synapse/logging": 1,
-                "synapse/rest": 202
+                "synapse/rest": 201
             }
         ]
     ],
@@ -908,7 +908,7 @@
             }
         ],
         [
-            528,
+            527,
             {
                 "synapse/app": 9,
                 "synapse/util": 2,
@@ -919,7 +919,7 @@
                 "synapse/replication": 46,
                 "synapse/handlers": 123,
                 "synapse/logging": 1,
-                "synapse/rest": 200
+                "synapse/rest": 199
             }
         ]
     ],
@@ -955,7 +955,7 @@
             }
         ],
         [
-            528,
+            527,
             {
                 "synapse/app": 9,
                 "synapse/util": 2,
@@ -966,7 +966,7 @@
                 "synapse/replication": 46,
                 "synapse/handlers": 123,
                 "synapse/logging": 1,
-                "synapse/rest": 200
+                "synapse/rest": 199
             }
         ]
     ],
@@ -1002,7 +1002,7 @@
             }
         ],
         [
-            496,
+            495,
             {
                 "synapse/app": 7,
                 "synapse/util": 2,
@@ -1013,60 +1013,13 @@
                 "synapse/replication": 45,
                 "synapse/handlers": 96,
                 "synapse/logging": 1,
-                "synapse/rest": 200
+                "synapse/rest": 199
             }
         ]
     ],
     [
         "10027c80b031f1e62b47cd61c534420673f49a71",
         "2020-02-14 12:49:40",
-        [
-            759,
-            {
-                "synapse/metrics": 2,
-                "synapse/crypto": 12,
-                "synapse/app": 18,
-                "synapse/util": 28,
-                "synapse/spam_checker_api": 1,
-                "synapse/appservice": 15,
-                "synapse/streams": 2,
-                "synapse/notifier.py": 3,
-                "synapse/groups": 37,
-                "synapse/state": 19,
-                "synapse/storage": 226,
-                "synapse/push": 40,
-                "synapse/http": 23,
-                "synapse/module_api": 2,
-                "synapse/federation": 23,
-                "synapse/api": 12,
-                "synapse/visibility.py": 2,
-                "synapse/replication": 3,
-                "synapse/events": 9,
-                "synapse/server_notices": 9,
-                "synapse/handlers": 246,
-                "synapse/logging": 1,
-                "synapse/rest": 26
-            }
-        ],
-        [
-            494,
-            {
-                "synapse/app": 7,
-                "synapse/util": 2,
-                "synapse/notifier.py": 3,
-                "synapse/storage": 24,
-                "synapse/http": 4,
-                "synapse/federation": 113,
-                "synapse/replication": 45,
-                "synapse/handlers": 96,
-                "synapse/logging": 1,
-                "synapse/rest": 199
-            }
-        ]
-    ],
-    [
-        "cc0800ebfc2c0e387820a5fcfdfb98842d28632a",
-        "2020-02-09 19:41:49",
         [
             759,
             {
@@ -1105,9 +1058,56 @@
                 "synapse/http": 4,
                 "synapse/federation": 113,
                 "synapse/replication": 45,
+                "synapse/handlers": 96,
+                "synapse/logging": 1,
+                "synapse/rest": 198
+            }
+        ]
+    ],
+    [
+        "cc0800ebfc2c0e387820a5fcfdfb98842d28632a",
+        "2020-02-09 19:41:49",
+        [
+            759,
+            {
+                "synapse/metrics": 2,
+                "synapse/crypto": 12,
+                "synapse/app": 18,
+                "synapse/util": 28,
+                "synapse/spam_checker_api": 1,
+                "synapse/appservice": 15,
+                "synapse/streams": 2,
+                "synapse/notifier.py": 3,
+                "synapse/groups": 37,
+                "synapse/state": 19,
+                "synapse/storage": 226,
+                "synapse/push": 40,
+                "synapse/http": 23,
+                "synapse/module_api": 2,
+                "synapse/federation": 23,
+                "synapse/api": 12,
+                "synapse/visibility.py": 2,
+                "synapse/replication": 3,
+                "synapse/events": 9,
+                "synapse/server_notices": 9,
+                "synapse/handlers": 246,
+                "synapse/logging": 1,
+                "synapse/rest": 26
+            }
+        ],
+        [
+            492,
+            {
+                "synapse/app": 7,
+                "synapse/util": 2,
+                "synapse/notifier.py": 3,
+                "synapse/storage": 24,
+                "synapse/http": 4,
+                "synapse/federation": 113,
+                "synapse/replication": 45,
                 "synapse/handlers": 95,
                 "synapse/logging": 1,
-                "synapse/rest": 199
+                "synapse/rest": 198
             }
         ]
     ],
@@ -1143,7 +1143,7 @@
             }
         ],
         [
-            441,
+            440,
             {
                 "synapse/app": 7,
                 "synapse/util": 2,
@@ -1154,7 +1154,7 @@
                 "synapse/replication": 45,
                 "synapse/handlers": 67,
                 "synapse/logging": 1,
-                "synapse/rest": 199
+                "synapse/rest": 198
             }
         ]
     ],
@@ -1190,7 +1190,7 @@
             }
         ],
         [
-            432,
+            431,
             {
                 "synapse/app": 7,
                 "synapse/util": 2,
@@ -1201,7 +1201,7 @@
                 "synapse/replication": 44,
                 "synapse/handlers": 67,
                 "synapse/logging": 1,
-                "synapse/rest": 199
+                "synapse/rest": 198
             }
         ]
     ],
@@ -1237,7 +1237,7 @@
             }
         ],
         [
-            427,
+            426,
             {
                 "synapse/app": 7,
                 "synapse/util": 2,
@@ -1248,7 +1248,7 @@
                 "synapse/replication": 44,
                 "synapse/handlers": 70,
                 "synapse/logging": 1,
-                "synapse/rest": 198
+                "synapse/rest": 197
             }
         ]
     ],
@@ -1284,7 +1284,7 @@
             }
         ],
         [
-            383,
+            382,
             {
                 "synapse/app": 1,
                 "synapse/util": 2,
@@ -1295,7 +1295,7 @@
                 "synapse/replication": 12,
                 "synapse/handlers": 69,
                 "synapse/logging": 1,
-                "synapse/rest": 196
+                "synapse/rest": 195
             }
         ]
     ],
@@ -1331,7 +1331,7 @@
             }
         ],
         [
-            375,
+            374,
             {
                 "synapse/util": 2,
                 "synapse/notifier.py": 3,
@@ -1341,7 +1341,7 @@
                 "synapse/replication": 12,
                 "synapse/handlers": 68,
                 "synapse/logging": 1,
-                "synapse/rest": 194
+                "synapse/rest": 193
             }
         ]
     ],
@@ -1377,7 +1377,7 @@
             }
         ],
         [
-            337,
+            336,
             {
                 "synapse/util": 2,
                 "synapse/notifier.py": 3,
@@ -1387,7 +1387,7 @@
                 "synapse/replication": 12,
                 "synapse/handlers": 32,
                 "synapse/logging": 1,
-                "synapse/rest": 194
+                "synapse/rest": 193
             }
         ]
     ],
@@ -1423,7 +1423,7 @@
             }
         ],
         [
-            337,
+            336,
             {
                 "synapse/util": 2,
                 "synapse/notifier.py": 3,
@@ -1433,7 +1433,7 @@
                 "synapse/replication": 12,
                 "synapse/handlers": 32,
                 "synapse/logging": 1,
-                "synapse/rest": 194
+                "synapse/rest": 193
             }
         ]
     ],
@@ -1469,7 +1469,7 @@
             }
         ],
         [
-            365,
+            364,
             {
                 "synapse/util": 2,
                 "synapse/notifier.py": 3,
@@ -1479,7 +1479,7 @@
                 "synapse/replication": 12,
                 "synapse/handlers": 58,
                 "synapse/logging": 1,
-                "synapse/rest": 194
+                "synapse/rest": 193
             }
         ]
     ],
@@ -1515,7 +1515,7 @@
             }
         ],
         [
-            307,
+            306,
             {
                 "synapse/util": 1,
                 "synapse/storage": 4,
@@ -1524,7 +1524,7 @@
                 "synapse/replication": 12,
                 "synapse/handlers": 7,
                 "synapse/logging": 1,
-                "synapse/rest": 194
+                "synapse/rest": 193
             }
         ]
     ],
@@ -1560,7 +1560,7 @@
             }
         ],
         [
-            168,
+            167,
             {
                 "synapse/util": 1,
                 "synapse/storage": 4,
@@ -1569,7 +1569,7 @@
                 "synapse/replication": 12,
                 "synapse/handlers": 7,
                 "synapse/logging": 1,
-                "synapse/rest": 55
+                "synapse/rest": 54
             }
         ]
     ],
@@ -1605,7 +1605,7 @@
             }
         ],
         [
-            167,
+            166,
             {
                 "synapse/util": 1,
                 "synapse/storage": 4,
@@ -1614,7 +1614,7 @@
                 "synapse/replication": 11,
                 "synapse/handlers": 7,
                 "synapse/logging": 1,
-                "synapse/rest": 55
+                "synapse/rest": 54
             }
         ]
     ],
@@ -1650,7 +1650,7 @@
             }
         ],
         [
-            167,
+            166,
             {
                 "synapse/util": 1,
                 "synapse/storage": 4,
@@ -1659,7 +1659,7 @@
                 "synapse/replication": 11,
                 "synapse/handlers": 7,
                 "synapse/logging": 1,
-                "synapse/rest": 55
+                "synapse/rest": 54
             }
         ]
     ],
@@ -1695,7 +1695,7 @@
             }
         ],
         [
-            167,
+            166,
             {
                 "synapse/util": 1,
                 "synapse/storage": 4,
@@ -1704,7 +1704,7 @@
                 "synapse/replication": 11,
                 "synapse/handlers": 7,
                 "synapse/logging": 1,
-                "synapse/rest": 55
+                "synapse/rest": 54
             }
         ]
     ],
@@ -1740,7 +1740,7 @@
             }
         ],
         [
-            167,
+            166,
             {
                 "synapse/util": 1,
                 "synapse/storage": 4,
@@ -1749,7 +1749,7 @@
                 "synapse/replication": 11,
                 "synapse/handlers": 7,
                 "synapse/logging": 1,
-                "synapse/rest": 55
+                "synapse/rest": 54
             }
         ]
     ],
@@ -1784,14 +1784,14 @@
             }
         ],
         [
-            102,
+            101,
             {
                 "synapse/storage": 3,
                 "synapse/http": 4,
                 "synapse/federation": 58,
                 "synapse/handlers": 3,
                 "synapse/logging": 1,
-                "synapse/rest": 33
+                "synapse/rest": 32
             }
         ]
     ],
@@ -1826,14 +1826,14 @@
             }
         ],
         [
-            102,
+            101,
             {
                 "synapse/storage": 3,
                 "synapse/http": 4,
                 "synapse/federation": 58,
                 "synapse/handlers": 3,
                 "synapse/logging": 1,
-                "synapse/rest": 33
+                "synapse/rest": 32
             }
         ]
     ],
@@ -1868,14 +1868,14 @@
             }
         ],
         [
-            81,
+            80,
             {
                 "synapse/storage": 3,
                 "synapse/http": 4,
                 "synapse/federation": 58,
                 "synapse/handlers": 3,
                 "synapse/logging": 1,
-                "synapse/rest": 12
+                "synapse/rest": 11
             }
         ]
     ],
@@ -1910,13 +1910,13 @@
             }
         ],
         [
-            80,
+            79,
             {
                 "synapse/storage": 3,
                 "synapse/http": 4,
                 "synapse/federation": 58,
                 "synapse/handlers": 3,
-                "synapse/rest": 12
+                "synapse/rest": 11
             }
         ]
     ],
@@ -1951,13 +1951,13 @@
             }
         ],
         [
-            80,
+            79,
             {
                 "synapse/storage": 3,
                 "synapse/http": 4,
                 "synapse/federation": 58,
                 "synapse/handlers": 3,
-                "synapse/rest": 12
+                "synapse/rest": 11
             }
         ]
     ],
@@ -1992,12 +1992,12 @@
             }
         ],
         [
-            75,
+            74,
             {
                 "synapse/http": 4,
                 "synapse/federation": 58,
                 "synapse/handlers": 1,
-                "synapse/rest": 12
+                "synapse/rest": 11
             }
         ]
     ],
@@ -2032,12 +2032,12 @@
             }
         ],
         [
-            75,
+            74,
             {
                 "synapse/http": 4,
                 "synapse/federation": 58,
                 "synapse/handlers": 1,
-                "synapse/rest": 12
+                "synapse/rest": 11
             }
         ]
     ],
@@ -2072,12 +2072,12 @@
             }
         ],
         [
-            75,
+            74,
             {
                 "synapse/http": 4,
                 "synapse/federation": 58,
                 "synapse/handlers": 1,
-                "synapse/rest": 12
+                "synapse/rest": 11
             }
         ]
     ],
@@ -2112,12 +2112,12 @@
             }
         ],
         [
-            75,
+            74,
             {
                 "synapse/http": 4,
                 "synapse/federation": 58,
                 "synapse/handlers": 1,
-                "synapse/rest": 12
+                "synapse/rest": 11
             }
         ]
     ],
@@ -2153,12 +2153,12 @@
             }
         ],
         [
-            74,
+            73,
             {
                 "synapse/http": 4,
                 "synapse/federation": 57,
                 "synapse/handlers": 1,
-                "synapse/rest": 12
+                "synapse/rest": 11
             }
         ]
     ],
@@ -2194,11 +2194,11 @@
             }
         ],
         [
-            72,
+            71,
             {
                 "synapse/http": 4,
                 "synapse/federation": 57,
-                "synapse/rest": 11
+                "synapse/rest": 10
             }
         ]
     ],
@@ -2234,11 +2234,11 @@
             }
         ],
         [
-            72,
+            71,
             {
                 "synapse/http": 4,
                 "synapse/federation": 57,
-                "synapse/rest": 11
+                "synapse/rest": 10
             }
         ]
     ],
@@ -2274,11 +2274,11 @@
             }
         ],
         [
-            72,
+            71,
             {
                 "synapse/http": 4,
                 "synapse/federation": 57,
-                "synapse/rest": 11
+                "synapse/rest": 10
             }
         ]
     ],
@@ -2314,11 +2314,11 @@
             }
         ],
         [
-            72,
+            71,
             {
                 "synapse/http": 4,
                 "synapse/federation": 57,
-                "synapse/rest": 11
+                "synapse/rest": 10
             }
         ]
     ],
@@ -2354,11 +2354,11 @@
             }
         ],
         [
-            72,
+            71,
             {
                 "synapse/http": 4,
                 "synapse/federation": 57,
-                "synapse/rest": 11
+                "synapse/rest": 10
             }
         ]
     ],
@@ -2394,10 +2394,10 @@
             }
         ],
         [
-            15,
+            14,
             {
                 "synapse/http": 4,
-                "synapse/rest": 11
+                "synapse/rest": 10
             }
         ]
     ],
@@ -2433,10 +2433,10 @@
             }
         ],
         [
-            15,
+            14,
             {
                 "synapse/http": 4,
-                "synapse/rest": 11
+                "synapse/rest": 10
             }
         ]
     ],
@@ -2471,10 +2471,10 @@
             }
         ],
         [
-            15,
+            14,
             {
                 "synapse/http": 4,
-                "synapse/rest": 11
+                "synapse/rest": 10
             }
         ]
     ],
@@ -2509,10 +2509,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2546,10 +2544,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2583,10 +2579,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2620,10 +2614,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2657,10 +2649,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2694,10 +2684,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2731,10 +2719,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2768,10 +2754,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2805,10 +2789,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2842,10 +2824,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2879,10 +2859,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2916,10 +2894,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2953,10 +2929,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -2990,10 +2964,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3027,10 +2999,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3064,10 +3034,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3101,10 +3069,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3138,10 +3104,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3175,10 +3139,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3212,10 +3174,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3249,10 +3209,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3286,10 +3244,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3323,10 +3279,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3359,10 +3313,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3395,10 +3347,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3431,10 +3381,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3467,10 +3415,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3503,10 +3449,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3539,10 +3483,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3575,10 +3517,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3611,10 +3551,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3647,10 +3585,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3683,10 +3619,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3719,10 +3653,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3755,10 +3687,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3791,10 +3721,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3827,10 +3755,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3863,10 +3789,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3899,10 +3823,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3935,10 +3857,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -3971,10 +3891,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4007,10 +3925,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4043,10 +3959,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4079,10 +3993,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4115,10 +4027,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4151,10 +4061,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4187,10 +4095,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4223,10 +4129,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4259,10 +4163,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4294,10 +4196,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4329,10 +4229,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4364,10 +4262,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4399,10 +4295,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4434,10 +4328,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4469,10 +4361,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4504,10 +4394,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4539,10 +4427,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4574,10 +4460,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4608,10 +4492,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4642,10 +4524,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4676,10 +4556,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4710,10 +4588,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4744,10 +4620,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4778,10 +4652,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4812,10 +4684,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4846,10 +4716,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4880,10 +4748,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4914,10 +4780,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4948,10 +4812,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -4982,10 +4844,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5016,10 +4876,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5049,10 +4907,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5082,10 +4938,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5115,10 +4969,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5148,10 +5000,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5181,10 +5031,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5214,10 +5062,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5247,10 +5093,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5280,10 +5124,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5312,10 +5154,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5345,10 +5185,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5378,10 +5216,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5410,10 +5246,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5442,10 +5276,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5474,10 +5306,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5506,10 +5336,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5538,10 +5366,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5570,10 +5396,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5601,10 +5425,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5632,10 +5454,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5663,10 +5483,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5694,10 +5512,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5725,10 +5541,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5756,10 +5570,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5787,10 +5599,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5819,10 +5629,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5850,10 +5658,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5882,10 +5688,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5913,10 +5717,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5944,10 +5746,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -5976,10 +5776,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6007,10 +5805,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6038,10 +5834,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6069,10 +5863,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6100,10 +5892,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6131,10 +5921,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6162,10 +5950,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6193,10 +5979,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6224,10 +6008,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6255,10 +6037,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6286,10 +6066,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6317,10 +6095,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6348,10 +6124,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6379,10 +6153,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6410,10 +6182,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6441,10 +6211,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6472,10 +6240,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6503,10 +6269,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6534,10 +6298,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6565,10 +6327,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6596,10 +6356,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6627,10 +6385,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6658,10 +6414,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6689,10 +6443,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6720,10 +6472,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6751,10 +6501,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6782,10 +6530,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -6813,21 +6559,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "2f4b2f4783c608e27dba91e528d2c5a9032b0051",
         "2017-01-06 23:00:42",
         [
-            712,
+            711,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 17,
-                "synapse/util": 26,
+                "synapse/util": 25,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -6844,21 +6588,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "555d702e3441e355d6b5e23702ab9505728dea71",
         "2016-12-31 10:21:37",
         [
-            712,
+            711,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 17,
-                "synapse/util": 26,
+                "synapse/util": 25,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -6875,21 +6617,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "84cf00c6450fb0334e4eac186f05ae6cd6afe2bb",
         "2016-12-21 04:51:43",
         [
-            711,
+            710,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 17,
-                "synapse/util": 26,
+                "synapse/util": 25,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -6906,21 +6646,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "f2a5aebf98a04bc4250ce2800b51d42543b5f35f",
         "2016-12-18 17:25:21",
         [
-            709,
+            708,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 17,
-                "synapse/util": 26,
+                "synapse/util": 25,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -6937,21 +6675,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "9f07f4c5595b0eff19c9740c44803700b01b14af",
         "2016-12-11 05:10:32",
         [
-            707,
+            706,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 17,
-                "synapse/util": 25,
+                "synapse/util": 24,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -6968,21 +6704,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "c46e7a9c9b98738e3b283d476201ef149a695dd1",
         "2016-12-03 18:14:58",
         [
-            705,
+            704,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 17,
-                "synapse/util": 25,
+                "synapse/util": 24,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -6999,21 +6733,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "b6146537d2a79401a4b4b41f5d31d408a2b5fea0",
         "2016-11-25 11:57:19",
         [
-            707,
+            706,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 17,
-                "synapse/util": 25,
+                "synapse/util": 24,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -7030,21 +6762,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "a2891509439d2ec6d12bcc348293e3e9162cd0df",
         "2016-11-18 12:15:02",
         [
-            701,
+            700,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 25,
+                "synapse/util": 24,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -7061,21 +6791,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "0964005d849de699d49e02c4ad5aa6fa8069ba01",
         "2016-11-12 06:20:46",
         [
-            707,
+            706,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 25,
+                "synapse/util": 24,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -7092,21 +6820,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "c6bbad109bfa97bc31ae76d6f4d83111ffa04ec4",
         "2016-11-06 20:02:25",
         [
-            707,
+            706,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 25,
+                "synapse/util": 24,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -7123,21 +6849,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "159434a13301f7838d2ca8d26e16a856216a318a",
         "2016-10-28 08:58:27",
         [
-            707,
+            706,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 25,
+                "synapse/util": 24,
                 "synapse/appservice": 16,
                 "synapse/streams": 2,
                 "synapse/notifier.py": 6,
@@ -7154,21 +6878,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "a842fed4183f3227e52fa0682e254a7cd2df6bff",
         "2016-10-21 08:06:19",
         [
-            706,
+            705,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 25,
+                "synapse/util": 24,
                 "synapse/appservice": 16,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7185,21 +6907,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "d43b63818c174cfaa41fab13334b159c155dd2da",
         "2016-10-14 16:46:54",
         [
-            711,
+            710,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 24,
+                "synapse/util": 23,
                 "synapse/appservice": 16,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7216,21 +6936,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "c57f871184cf669374c07faa6a95eceb8a9321b2",
         "2016-10-08 17:55:20",
         [
-            711,
+            710,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 24,
+                "synapse/util": 23,
                 "synapse/appservice": 16,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7247,21 +6965,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "21185e3e8a6ab394db04a07fca9c520ae615fef9",
         "2016-09-30 09:11:40",
         [
-            711,
+            710,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 24,
+                "synapse/util": 23,
                 "synapse/appservice": 16,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7278,21 +6994,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "aab6a31c965697f65aaca3577e9d2ea34b36f4da",
         "2016-09-25 09:08:58",
         [
-            710,
+            709,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 24,
+                "synapse/util": 23,
                 "synapse/appservice": 16,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7309,21 +7023,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "3f6ec271ba84699f2dda48c2b2dc35135c658c21",
         "2016-09-17 17:05:06",
         [
-            709,
+            708,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 14,
-                "synapse/util": 24,
+                "synapse/util": 23,
                 "synapse/appservice": 16,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7340,21 +7052,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "4162f820ff7aca658372b4d642fdc801a821d265",
         "2016-09-09 16:57:42",
         [
-            706,
+            705,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 13,
-                "synapse/util": 24,
+                "synapse/util": 23,
                 "synapse/appservice": 16,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7371,21 +7081,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "f2690c64230557701692e16264f2e65a21edab4d",
         "2016-09-02 14:23:22",
         [
-            697,
+            696,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 13,
-                "synapse/util": 24,
+                "synapse/util": 23,
                 "synapse/appservice": 16,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7402,21 +7110,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "5acbe09b6773d003c35d78a08605d70ff40ba365",
         "2016-08-26 19:20:39",
         [
-            695,
+            694,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 13,
-                "synapse/util": 24,
+                "synapse/util": 23,
                 "synapse/appservice": 16,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7433,21 +7139,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "6e80c03d45c3d09a7e7457f58beff69f14034964",
         "2016-08-19 19:16:18",
         [
-            676,
+            675,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 13,
-                "synapse/util": 24,
+                "synapse/util": 23,
                 "synapse/appservice": 15,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7464,21 +7168,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "8a57cc3123d36606fa2cf014b541e39c68cff72c",
         "2016-08-14 14:50:22",
         [
-            662,
+            661,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 8,
-                "synapse/util": 23,
+                "synapse/util": 22,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7495,21 +7197,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "f5deaff4241cbe3ef08f791f133a15dc0cc569bc",
         "2016-08-05 13:21:27",
         [
-            662,
+            661,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 8,
-                "synapse/util": 23,
+                "synapse/util": 22,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7526,21 +7226,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "b260f92936e7e80ee9885755d608d58ffb9101ba",
         "2016-07-31 11:00:12",
         [
-            657,
+            656,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 7,
-                "synapse/util": 23,
+                "synapse/util": 22,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7557,21 +7255,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "7ed58bb3476c4a18a9af97b8ee3358dac00098eb",
         "2016-07-22 12:18:50",
         [
-            650,
+            649,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 7,
-                "synapse/util": 23,
+                "synapse/util": 22,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7588,21 +7284,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "511a52afc8325504a69a3680e38b300dae7fd089",
         "2016-07-16 13:44:08",
         [
-            642,
+            641,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 7,
-                "synapse/util": 23,
+                "synapse/util": 22,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7619,21 +7313,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "385aec401015b12b763f630abf48ad2b8b30649c",
         "2016-07-08 12:42:48",
         [
-            641,
+            640,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 7,
-                "synapse/util": 23,
+                "synapse/util": 22,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7650,21 +7342,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "fc8007dbec40212ae85285aea600111ce2d06912",
         "2016-07-03 02:08:15",
         [
-            635,
+            634,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 7,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7681,21 +7371,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "70d820c87595f037f0c17dc525604aaaa0cf148c",
         "2016-06-26 06:07:07",
         [
-            632,
+            631,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 7,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7712,21 +7400,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "c8cd41cdd81841381b1a1e128bcf6764feadfaf0",
         "2016-06-17 14:45:06",
         [
-            632,
+            631,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 7,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7743,21 +7429,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "33546b58aa0a235d159269b8705a8999d219f41a",
         "2016-06-12 18:11:29",
         [
-            632,
+            631,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 7,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7774,21 +7458,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "3210f4c3859a1e3257a2a7668025c21786838c28",
         "2016-06-03 13:47:46",
         [
-            632,
+            631,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 7,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7805,21 +7487,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "42a9ea37e4c6ff9d91b530c40d366446b9fc2234",
         "2016-05-29 05:37:04",
         [
-            556,
+            555,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7835,21 +7515,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "c2da3406fcadefa3efbd302ae22a21c7ffbac9ce",
         "2016-05-20 13:03:31",
         [
-            615,
+            614,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 3,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7866,21 +7544,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "c0112fabc2b580ad3838cf4c1f9143dc345c1cda",
         "2016-05-13 13:07:21",
         [
-            617,
+            616,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 3,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7897,21 +7573,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "012cb5416cded6453e676696d74cab871db4aaf8",
         "2016-05-06 10:59:20",
         [
-            594,
+            593,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 3,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7927,21 +7601,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "792def49288432852fef5059f13184af67843818",
         "2016-05-01 07:44:24",
         [
-            590,
+            589,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 3,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7957,21 +7629,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "05e49ffbdf83ec3f910e1f8dbbe23aa4da297986",
         "2016-04-22 13:44:17",
         [
-            599,
+            598,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -7987,21 +7657,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "aaabbd3e9e514b3779b2004ff8e9f74dd9dc4b6a",
         "2016-04-15 09:32:25",
         [
-            585,
+            584,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 10,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8017,21 +7685,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "83b2f83da08383f2ab71b6c703dcde6aca90ab84",
         "2016-04-08 16:36:59",
         [
-            576,
+            575,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 21,
+                "synapse/util": 20,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8047,21 +7713,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "9f7dc2bef7cd39645ae74d96f2919a3f9fdb65ac",
         "2016-04-03 19:38:21",
         [
-            567,
+            566,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 20,
+                "synapse/util": 19,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8077,21 +7741,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "d9d48aad2d58deb5db422a5373a4dac9334a0618",
         "2016-03-27 17:54:42",
         [
-            550,
+            549,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8107,21 +7769,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "e4054abfdca787f5ee9f1a1f1ed52940991767a7",
         "2016-03-18 11:23:20",
         [
-            548,
+            547,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8137,21 +7797,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "494d0c8e0244dc6c9c7c3422cbeccc3cbe9283d8",
         "2016-03-11 15:16:25",
         [
-            547,
+            546,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8167,21 +7825,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "2ab0bf4b97c451f7709dcc9b747b1d6071c4f87f",
         "2016-03-04 11:54:32",
         [
-            541,
+            540,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8197,21 +7853,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "bfdcc7b9b64e862178d484f3faa424df34c1e771",
         "2016-02-26 09:32:08",
         [
-            530,
+            529,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 5,
@@ -8226,21 +7880,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "5c79ef9396ffc1212676610d4bb9df00f1361126",
         "2016-02-19 12:55:28",
         [
-            526,
+            525,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 5,
@@ -8255,21 +7907,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "4de08a4672c62eebda2ad3ee89643c2c32242cbf",
         "2016-02-12 11:17:24",
         [
-            530,
+            529,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 5,
@@ -8284,21 +7934,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "77c7ed0e93bff2ef7bb1981bf1b9a996aaca6f19",
         "2016-02-05 10:43:27",
         [
-            531,
+            530,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 7,
@@ -8313,21 +7961,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "d98a9f25839ede491201714dc7a9d661cd4ff8f3",
         "2016-01-31 08:31:15",
         [
-            528,
+            527,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 7,
@@ -8342,21 +7988,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "7dd0c1730a1ea5962a77b9bbb883c1690b25b686",
         "2016-01-24 18:47:27",
         [
-            535,
+            534,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 7,
@@ -8371,21 +8015,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "5de1563997e62811f8c04033c0a86c12343c5e4a",
         "2016-01-15 11:27:29",
         [
-            526,
+            525,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8400,21 +8042,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "c110eb92f8d0e3857a41721f3fe91eee008366bf",
         "2016-01-08 12:55:25",
         [
-            516,
+            515,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8429,21 +8069,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "32d9fd0b266d8c419ce36a50cba4eb97c1fa2f82",
         "2016-01-02 12:24:28",
         [
-            516,
+            515,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8458,21 +8096,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "c6e79c84dedeea393ee11fdcebb6b424551b2508",
         "2015-12-23 11:15:54",
         [
-            516,
+            515,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8487,21 +8123,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "a6ba41e0785f8f597713bd023e1f6dc3a3d966ea",
         "2015-12-18 16:36:42",
         [
-            514,
+            513,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8516,21 +8150,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "deeebbfcb71d100cee18a8a26cc288a1cf352b83",
         "2015-12-12 09:21:49",
         [
-            513,
+            512,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8545,21 +8177,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "4013216fccc4cd3dbdf58b04169caab5fb6531a7",
         "2015-12-06 15:50:11",
         [
-            506,
+            505,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8574,21 +8204,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "76936f43ae0f88d4523fe07b7a9ccf8ddb5563ac",
         "2015-11-27 11:40:42",
         [
-            509,
+            508,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8603,21 +8231,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "91695150ccb56f0a82ffba88e238440925866775",
         "2015-11-21 05:51:32",
         [
-            508,
+            507,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8632,21 +8258,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "1654d3b329e600a23e19a7fc108eebdc67f747c2",
         "2015-11-13 12:43:30",
         [
-            503,
+            502,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 6,
@@ -8661,21 +8285,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "dd40fb68e455b9a736f1871a19119eb0391cd0d5",
         "2015-11-08 11:04:37",
         [
-            496,
+            495,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 17,
+                "synapse/util": 16,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 5,
@@ -8690,21 +8312,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "fb46937413cc0ccbf12063a5743ddf914cd8170a",
         "2015-10-30 12:38:35",
         [
-            484,
+            483,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 5,
@@ -8719,21 +8339,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "4cf633d5e9628a56cf9b400ee3e073fcdcb365f0",
         "2015-10-23 10:41:36",
         [
-            476,
+            475,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 5,
@@ -8748,21 +8366,19 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
         "aff4d850bdc5d6108b1f6f84591b44db6e496d75",
         "2015-10-16 14:56:46",
         [
-            458,
+            457,
             {
                 "synapse/crypto": 14,
                 "synapse/app": 1,
-                "synapse/util": 19,
+                "synapse/util": 18,
                 "synapse/appservice": 11,
                 "synapse/streams": 1,
                 "synapse/notifier.py": 5,
@@ -8777,10 +8393,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -8806,10 +8420,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -8835,10 +8447,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -8864,10 +8474,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -8892,10 +8500,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -8920,10 +8526,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -8948,10 +8552,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -8976,10 +8578,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9004,10 +8604,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9032,10 +8630,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9060,10 +8656,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9088,10 +8682,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9116,10 +8708,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9144,10 +8734,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9172,10 +8760,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9200,10 +8786,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9228,10 +8812,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9256,10 +8838,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9284,10 +8864,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9312,10 +8890,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9340,10 +8916,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9368,10 +8942,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9396,10 +8968,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9424,10 +8994,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9452,10 +9020,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
@@ -9507,10 +9073,8 @@
             }
         ],
         [
-            1,
-            {
-                "synapse/rest": 1
-            }
+            0,
+            {}
         ]
     ],
     [
