@@ -21,7 +21,7 @@ repo = Repo(SYNAPSE_DIR)
 
 def search(string):
     result = subprocess.run(
-        ("grep -r %s synapse" % string).split(),
+        ["grep", "-r", string, "synapse"],
         capture_output=True,
         cwd=SYNAPSE_DIR)
 
