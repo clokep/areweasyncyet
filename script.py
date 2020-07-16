@@ -1,5 +1,5 @@
 from collections import defaultdict
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 from pathlib import Path
 import json
 import subprocess
@@ -8,7 +8,6 @@ from git import Repo
 
 # Constants.
 INITIAL_COMMIT = "4f475c7697722e946e39e42f38f3dd03a95d8765"
-START_DATE = date(2014, 8, 12)
 SYNAPSE_DIR = Path(".") / "synapse"
 
 # Start at the nearest Monday.
@@ -42,7 +41,7 @@ data = []
 for commit in repo.iter_commits("develop"):
     # Get the commit at the start of the day.
     committed_date = datetime.fromtimestamp(commit.committed_date)
-    if committed_date < day:
+    if committed_date < day or commit.hexsha == INITIAL_COMMIT:
         # The next date will be a week in the past.
         day -= timedelta(days=7 )
 
@@ -61,4 +60,4 @@ for commit in repo.iter_commits("develop"):
         data.append((commit.hexsha, str(committed_date), deferred_result, async_result))
 
 with open("results.json", "w") as f:
-    f.write(json.dumps(data))
+    f.write(json.dumps(data, indent=4))
