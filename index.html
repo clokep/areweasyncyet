@@ -17,8 +17,9 @@
 </head>
 
 <body>
-    <div style="width:75%;">
+    <div style="width: 75%;">
         <canvas id="canvas"></canvas>
+        <button onclick="resetZoom();">Reset Zoom</button>
     </div>
 
     <script>
@@ -103,7 +104,11 @@
             let ctx = document.getElementById('canvas').getContext('2d');
 
             window.chart = new Chart(ctx, config);
-          });
+        });
+
+        function resetZoom() {
+            window.chart.resetZoom();
+        }
     </script>
 </body>
 
