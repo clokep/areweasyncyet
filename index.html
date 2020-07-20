@@ -13,13 +13,29 @@
             -webkit-user-select: none;
             -ms-user-select: none;
         }
+
+        div {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 2em;
+        }
     </style>
 </head>
 
 <body>
-    <div style="width: 75%;">
+    <div>
         <canvas id="canvas"></canvas>
-        <button onclick="resetZoom();">Reset Zoom</button>
+    </div>
+
+    <div>
+        Synapse has traditionally used <a href="https://twistedmatrix.com/documents/current/api/twisted.internet.defer.html#inlineCallbacks"><code>inlineCallbacks</code></a>
+        to have readable asynchronous code. Now that only Python 3 is supported, native async / await syntax can be used.
+        This helps identify where performance is going (and helps find errors) due to giving saner stack traces.
+    </div>
+
+    <div>
+        You can drag to zoom to a portion of the graph above. <button onclick="resetZoom();">Click to Reset Zoom</button>
     </div>
 
     <script>
@@ -73,12 +89,12 @@
         fetch("results.json").then(response => response.json()).then(data => {
             // Generate the data points from the raw data.
             let labels = [];
-            let inlineDeferreds = [];
+            let inlineCallbacks = [];
             let asyncDefs = [];
 
             for (let d of data.reverse()) {
                 labels.push(d[1]);
-                inlineDeferreds.push(d[2][0]);
+                inlineCallbacks.push(d[2][0]);
                 asyncDefs.push(d[3][0]);
             }
 
@@ -87,10 +103,10 @@
                 labels: labels,
                 datasets: [
                     {
-                        label: 'inlineDeferred',
+                        label: 'inlineCallbacks or cachedInlineCallbacks',
                         borderColor: "rgb(255, 99, 132)",  // Red
                         backgroundColor: "rgb(255, 99, 132)",
-                        data: inlineDeferreds,
+                        data: inlineCallbacks,
                     }, {
                         label: 'async',
                         borderColor: "rgb(54, 162, 235)",  // Blue
