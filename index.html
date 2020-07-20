@@ -2,9 +2,11 @@
 <html>
 
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Are We Async Yet?</title>
 	<script src="moment.min.js"></script>
 	<script src="Chart.min.js"></script>
+	<script src="chartjs-plugin-zoom.min.js"></script>
 	<style>
 		canvas {
 			-moz-user-select: none;
@@ -53,6 +55,16 @@
 							labelString: 'Count'
 						}
 					}]
+				},
+				plugins: {
+					zoom: {
+						zoom: {
+							enabled: true,
+							drag: true,
+							mode: 'x',
+							speed: 0.05
+						}
+					}
 				}
 			}
 		};
