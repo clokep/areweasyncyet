@@ -50,7 +50,7 @@ for commit in repo.iter_commits("develop"):
         repo.head.reset(index=True, working_tree=True)
 
         # Find the number of inlineCallback functions.
-        deferred_result = search("inlineCallbacks")
+        deferred_result = search("inlineCallbacks|cachedInlineCallbacks")
 
         # Find the number of async functions.
         async_result = search("async def")
