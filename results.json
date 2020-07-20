@@ -1,5 +1,54 @@
 [
     [
+        "f460da6031d01b2b271ded097ed6be65fd1b24f9",
+        "2020-07-16 11:32:19",
+        [
+            459,
+            {
+                "synapse/metrics": 2,
+                "synapse/crypto": 12,
+                "synapse/app": 9,
+                "synapse/util": 29,
+                "synapse/spam_checker_api": 1,
+                "synapse/appservice": 15,
+                "synapse/streams": 2,
+                "synapse/groups": 3,
+                "synapse/state": 19,
+                "synapse/storage": 216,
+                "synapse/push": 25,
+                "synapse/http": 23,
+                "synapse/module_api": 2,
+                "synapse/federation": 21,
+                "synapse/api": 10,
+                "synapse/visibility.py": 2,
+                "synapse/replication": 3,
+                "synapse/events": 9,
+                "synapse/handlers": 48,
+                "synapse/logging": 1,
+                "synapse/rest": 7
+            }
+        ],
+        [
+            887,
+            {
+                "synapse/app": 15,
+                "synapse/util": 2,
+                "synapse/notifier.py": 6,
+                "synapse/groups": 34,
+                "synapse/storage": 62,
+                "synapse/push": 15,
+                "synapse/http": 4,
+                "synapse/module_api": 1,
+                "synapse/federation": 115,
+                "synapse/api": 2,
+                "synapse/replication": 48,
+                "synapse/server_notices": 11,
+                "synapse/handlers": 336,
+                "synapse/rest": 236
+            }
+        ]
+    ],
+    [
         "66a4af8d9627719a875c405c8c0f49b0056811b2",
         "2020-07-10 14:30:08",
         [
