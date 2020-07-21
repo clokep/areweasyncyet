@@ -90,12 +90,14 @@
             // Generate the data points from the raw data.
             let labels = [];
             let inlineCallbacks = [];
+            let deferreds = []
             let asyncDefs = [];
 
             for (let d of data.reverse()) {
                 labels.push(d[1]);
                 inlineCallbacks.push(d[2][0]);
-                asyncDefs.push(d[3][0]);
+                deferreds.push(d[3][0]);
+                asyncDefs.push(d[4][0]);
             }
 
             // Finish up the config.
@@ -103,11 +105,18 @@
                 labels: labels,
                 datasets: [
                     {
-                        label: 'inlineCallbacks or cachedInlineCallbacks',
+                        label: 'inlineCallbacks / cachedInlineCallbacks',
                         borderColor: "rgb(255, 99, 132)",  // Red
                         backgroundColor: "rgb(255, 99, 132)",
                         data: inlineCallbacks,
-                    }, {
+                    },
+                    {
+                        label: 'ensureDeferred / maybeDeferred / succeed / failure',
+                        borderColor: "rgb(75, 192, 192)",  // Green
+                        backgroundColor: "rgb(75, 192, 192)",
+                        data: deferreds,
+                    },
+                    {
                         label: 'async',
                         borderColor: "rgb(54, 162, 235)",  // Blue
                         backgroundColor: "rgb(54, 162, 235)",
