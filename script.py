@@ -20,15 +20,15 @@ repo = Repo(SYNAPSE_DIR)
 
 def search(string):
     result = subprocess.run(
-        ["grep", "-rE", "\\b" + string + "\\b", "synapse"],
+        ["grep", "-rE", "\\b" + string + "\\b", "synapse", "tests", "contrib", "docs", "scripts"],
         capture_output=True,
         cwd=SYNAPSE_DIR)
 
     total = 0
     by_module = defaultdict(int)
     for line in result.stdout.splitlines():
-        line = line.decode("ascii")
-        filename, match = line.split(":", 1)
+        filename, match = line.split(b":", 1)
+        filename = filename.decode("ascii")
         module = "/".join(filename.split("/", 2)[:2])
         total += 1
         by_module[module] += 1
@@ -50,14 +50,19 @@ for commit in repo.iter_commits("develop"):
         repo.head.reset(index=True, working_tree=True)
 
         # Find the number of inlineCallback functions.
-        deferred_result = search("inlineCallbacks|cachedInlineCallbacks")
+        inlineCallbacks_result = search("inlineCallbacks|cachedInlineCallbacks")
 
         # Find the number of async functions.
         async_result = search("async def")
 
-        print(commit, deferred_result[0], async_result[0])
+        print(commit, inlineCallbacks_result[0], async_result[0])
 
-        data.append((commit.hexsha, str(committed_date), deferred_result, async_result))
+        data.append((
+            commit.hexsha,
+            str(committed_date),
+            inlineCallbacks_result,
+            async_result,
+        ))
 
 with open("results.json", "w") as f:
     f.write(json.dumps(data, indent=4))
