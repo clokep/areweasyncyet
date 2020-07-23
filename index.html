@@ -20,12 +20,25 @@
             margin-right: auto;
             padding-bottom: 2em;
         }
+
+        #tools * {
+            float: right;
+        }
     </style>
 </head>
 
 <body>
+    <div id="tools">
+        <select id="chart-chooser" onchange="showCharts();">
+            <option value="all">All modules</option>
+            <option value="synapse" selected>Synapse-only</option>
+        </select>
+        <button onclick="resetZoom();">Click to Reset Zoom</button>
+    </div>
+
     <div>
-        <canvas id="canvas"></canvas>
+        <canvas id="all" style="display: none;"></canvas>
+        <canvas id="synapse"></canvas>
     </div>
 
     <div>
@@ -35,11 +48,11 @@
     </div>
 
     <div>
-        You can drag to zoom to a portion of the graph above. <button onclick="resetZoom();">Click to Reset Zoom</button>
+        You can drag to zoom to a portion of the graph above.
     </div>
 
     <script>
-        var config = {
+        var configTemplate = {
             type: 'line',
             options: {
                 responsive: true,
@@ -86,53 +99,89 @@
             }
         };
 
-        fetch("results.json").then(response => response.json()).then(data => {
-            // Generate the data points from the raw data.
-            let labels = [];
-            let inlineCallbacks = [];
-            let deferreds = []
-            let asyncDefs = [];
-
-            for (let d of data.reverse()) {
-                labels.push(d[1]);
-                inlineCallbacks.push(d[2][0]);
-                deferreds.push(d[3][0]);
-                asyncDefs.push(d[4][0]);
+        function sum_data(data, module) {
+            let sum = 0;
+            for (let module_name in data) {
+                if (module_name.startsWith(module + "/")) {
+                    sum += data[module_name];
+                }
             }
+            return sum;
+        }
 
-            // Finish up the config.
-            config.data = {
-                labels: labels,
-                datasets: [
-                    {
-                        label: 'inlineCallbacks / cachedInlineCallbacks',
-                        borderColor: "rgb(255, 99, 132)",  // Red
-                        backgroundColor: "rgb(255, 99, 132)",
-                        data: inlineCallbacks,
-                    },
-                    {
-                        label: 'ensureDeferred / maybeDeferred / succeed / failure',
-                        borderColor: "rgb(75, 192, 192)",  // Green
-                        backgroundColor: "rgb(75, 192, 192)",
-                        data: deferreds,
-                    },
-                    {
-                        label: 'async',
-                        borderColor: "rgb(54, 162, 235)",  // Blue
-                        backgroundColor: "rgb(54, 162, 235)",
-                        data: asyncDefs,
-                    },
-                ]
-            };
+        fetch("results.json").then(response => response.json()).then(data => {
+            for (let id of ['all', 'synapse']) {
+                // Generate the data points from the raw data.
+                let labels = [];
+                let inlineCallbacks = [];
+                let deferreds = []
+                let asyncDefs = [];
 
-            // Render the graph.
-            let ctx = document.getElementById('canvas').getContext('2d');
+                for (let d of data.reverse()) {
+                    labels.push(d[1]);
+                    // If looking at all data, pull the total out, otherwise
+                    // look for module specific data.
+                    if (id == 'all') {
+                        inlineCallbacks.push(d[2][0]);
+                        deferreds.push(d[3][0]);
+                        asyncDefs.push(d[4][0]);
+                    } else {
+                        inlineCallbacks.push(sum_data(d[2][1], id));
+                        deferreds.push(sum_data(d[3][1], id));
+                        asyncDefs.push(sum_data(d[4][1], id));
+                    }
+                }
 
-            window.chart = new Chart(ctx, config);
+                // Finish up the config.
+                let config = Object.assign({}, configTemplate);
+                config.data = {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'inlineCallbacks / cachedInlineCallbacks',
+                            borderColor: "rgb(255, 99, 132)",  // Red
+                            backgroundColor: "rgb(255, 99, 132)",
+                            data: inlineCallbacks,
+                        },
+                        {
+                            label: 'ensureDeferred / maybeDeferred / succeed / failure',
+                            borderColor: "rgb(75, 192, 192)",  // Green
+                            backgroundColor: "rgb(75, 192, 192)",
+                            data: deferreds,
+                        },
+                        {
+                            label: 'async',
+                            borderColor: "rgb(54, 162, 235)",  // Blue
+                            backgroundColor: "rgb(54, 162, 235)",
+                            data: asyncDefs,
+                        },
+                    ]
+                };
+
+                // Render the graph.
+                let ctx = document.getElementById(id).getContext('2d');
+
+                window[id] = new Chart(ctx, config);
+            }
         });
 
         function resetZoom() {
-            window.chart.resetZoom();
+            for (let id in ['all', 'synapse']) {
+                window[id].resetZoom();
+            }
+        }
+
+        function showCharts() {
+            console.log("HI")
+            let select = document.getElementById('chart-chooser');
+            for (let option of select.children) {
+                let chart = document.getElementById(option.getAttribute('value'));
+                if (option.selected) {
+                    chart.style.display = 'block';
+                } else {
+                    chart.style.display = 'none';
+                }
+            }
         }
     </script>
 </body>
