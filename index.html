@@ -24,6 +24,18 @@
         #tools * {
             float: right;
         }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .left {
+            text-align: left;
+        }
+        th, tr {
+            padding: 5px;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -49,6 +61,21 @@
 
     <div>
         You can drag to zoom to a portion of the graph above.
+    </div>
+
+    <div>
+        <h3>Details of latest snapshot</h3>
+        <h5>Commit <span id="snapshot-commit"></span></h5>
+        <h5>From <span id="snapshot-when"></span></h5>
+
+        <table id="snapshot">
+            <tr>
+                <th>Module</th>
+                <th>inlineCallbacks<br>cachedInlineCallbacks</th>
+                <th>ensureDeferred<br>maybeDeferred<br>succeed<br>failure</th>
+                <th>async</th>
+            </tr>
+        </table>
     </div>
 
     <script>
@@ -162,6 +189,58 @@
                 let ctx = document.getElementById(id).getContext('2d');
 
                 window[id] = new Chart(ctx, config);
+            }
+
+            // Also fill in the snapshot table.
+            let snapshot = data[0];
+            document.getElementById("snapshot-commit").innerText = snapshot[0];
+            document.getElementById("snapshot-when").innerText = snapshot[1];
+            let modules = {};
+            let idxs = [2, 3, 4];
+            for (let i = 0; i < idxs.length; ++i) {
+                let idx = idxs[i];
+
+                // Iterate each module in the data and add the counts.
+                for (let module_name in snapshot[idx][1]) {
+                    let count = snapshot[idx][1][module_name];
+                    if (!modules[module_name]) {
+                        // Fill previous entries with 0.
+                        let data = [];
+                        for (let j = 0; j < i; ++j) {
+                            data.push(0);
+                        }
+                        modules[module_name] = data;
+                    }
+                    modules[module_name].push(count);
+                }
+
+                // Iterate each module in the mapping and ensure they have the
+                // proper number of entries.
+                if (i == 0) {
+                    continue;
+                }
+                for (let module_name in modules) {
+                    if (modules[module_name].length < (i + 1)) {
+                        modules[module_name].push(0);
+                    }
+                }
+            }
+
+            // Finally, actually fill in the table.
+            let module_names = Object.keys(modules).sort();
+            let snapshot_table = document.getElementById("snapshot");
+            for (let module_name of module_names) {
+                let row = document.createElement("tr");
+                let cell = document.createElement("th");
+                cell.className = "left";
+                cell.innerText = module_name.replace("/", ".");
+                row.appendChild(cell);
+                for (let count of modules[module_name]) {
+                    cell = document.createElement("td");
+                    cell.innerText = count;
+                    row.appendChild(cell);
+                }
+                snapshot_table.appendChild(row);
             }
         });
 
