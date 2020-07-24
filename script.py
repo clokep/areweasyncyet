@@ -17,6 +17,9 @@ while day.weekday():
 
 repo = Repo(SYNAPSE_DIR)
 
+# Fetch updated changes.
+origin = repo.remotes[0]
+origin.fetch()
 
 def search(string):
     result = subprocess.run(
@@ -38,7 +41,7 @@ def search(string):
 
 # Iterate from the newest to the oldest commit.
 data = []
-for commit in repo.iter_commits("develop"):
+for commit in repo.iter_commits("origin/develop"):
     # Get the commit at the start of the day.
     committed_date = datetime.fromtimestamp(commit.committed_date)
     if committed_date < day or commit.hexsha == INITIAL_COMMIT:
