@@ -41,12 +41,14 @@ def search(string):
 
 # Iterate from the newest to the oldest commit.
 data = []
-for commit in repo.iter_commits("origin/develop"):
+for it, commit in enumerate(repo.iter_commits("origin/develop")):
     # Get the commit at the start of the day.
     committed_date = datetime.fromtimestamp(commit.committed_date)
-    if committed_date < day or commit.hexsha == INITIAL_COMMIT:
+    # Always include the latest commit, the earliest commit, and the last commit
+    # of each Sunday.
+    if committed_date < day or commit.hexsha == INITIAL_COMMIT or it == 0:
         # The next date will be a week in the past.
-        day -= timedelta(days=7 )
+        day -= timedelta(days=7)
 
         # Checkout this commit (why is this so hard?).
         repo.head.reference = commit
