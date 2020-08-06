@@ -33,6 +33,8 @@ def search(string):
         filename, match = line.split(b":", 1)
         filename = filename.decode("ascii")
         module = "/".join(filename.split("/", 2)[:2])
+        # If there's a file extension, strip it off.
+        module = module.split(".")[0]
         total += 1
         by_module[module] += 1
 
