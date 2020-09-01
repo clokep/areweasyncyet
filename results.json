@@ -1,16 +1,15 @@
 [
     [
-        "45e8f7726f24d98a9d3fa06ea52ae960cc1d8689",
-        "2020-08-28 19:14:17",
+        "b939251c37d748a4be6346eb27bd5fdfaff17738",
+        "2020-09-01 13:02:41",
         [
-            315,
+            311,
             {
                 "synapse/app": 5,
                 "synapse/util": 10,
                 "synapse/spam_checker_api": 1,
-                "synapse/appservice": 1,
                 "synapse/storage": 1,
-                "synapse/http": 4,
+                "synapse/http": 1,
                 "synapse/module_api": 2,
                 "tests/crypto": 5,
                 "tests/util": 27,
@@ -30,16 +29,15 @@
             }
         ],
         [
-            557,
+            562,
             {
                 "synapse/metrics": 1,
                 "synapse/app": 6,
                 "synapse/util": 9,
                 "synapse/spam_checker_api": 2,
-                "synapse/appservice": 1,
                 "synapse/notifier": 1,
-                "synapse/storage": 2,
-                "synapse/http": 1,
+                "synapse/storage": 1,
+                "synapse/http": 2,
                 "synapse/module_api": 8,
                 "synapse/federation": 2,
                 "synapse/handlers": 1,
@@ -54,7 +52,7 @@
                 "tests/test_state": 27,
                 "tests/storage": 152,
                 "tests/utils": 1,
-                "tests/http": 21,
+                "tests/http": 27,
                 "tests/federation": 3,
                 "tests/api": 63,
                 "tests/replication": 3,
@@ -67,20 +65,20 @@
             }
         ],
         [
-            1638,
+            1705,
             {
                 "synapse/metrics": 1,
                 "synapse/crypto": 14,
                 "synapse/server": 1,
                 "synapse/app": 20,
                 "synapse/util": 8,
-                "synapse/appservice": 17,
+                "synapse/appservice": 19,
                 "synapse/notifier": 6,
                 "synapse/groups": 37,
                 "synapse/state": 23,
-                "synapse/storage": 500,
+                "synapse/storage": 562,
                 "synapse/push": 40,
-                "synapse/http": 23,
+                "synapse/http": 26,
                 "synapse/module_api": 1,
                 "synapse/federation": 139,
                 "synapse/api": 12,
@@ -109,8 +107,8 @@
         ]
     ],
     [
-        "8027166dd546811316e7c8395deaf929110c2f3a",
-        "2020-08-28 19:06:00",
+        "45e8f7726f24d98a9d3fa06ea52ae960cc1d8689",
+        "2020-08-28 19:14:17",
         [
             315,
             {
