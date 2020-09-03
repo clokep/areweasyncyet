@@ -1,14 +1,13 @@
 [
     [
-        "b939251c37d748a4be6346eb27bd5fdfaff17738",
-        "2020-09-01 13:02:41",
+        "5bfc79486dbc9f51812a8d901bb1bb9fa2b98a81",
+        "2020-09-03 07:54:10",
         [
-            311,
+            306,
             {
-                "synapse/app": 5,
+                "synapse/app": 1,
                 "synapse/util": 10,
                 "synapse/spam_checker_api": 1,
-                "synapse/storage": 1,
                 "synapse/http": 1,
                 "synapse/module_api": 2,
                 "tests/crypto": 5,
@@ -29,14 +28,13 @@
             }
         ],
         [
-            562,
+            557,
             {
                 "synapse/metrics": 1,
-                "synapse/app": 6,
+                "synapse/app": 2,
                 "synapse/util": 9,
                 "synapse/spam_checker_api": 2,
                 "synapse/notifier": 1,
-                "synapse/storage": 1,
                 "synapse/http": 2,
                 "synapse/module_api": 8,
                 "synapse/federation": 2,
@@ -65,18 +63,18 @@
             }
         ],
         [
-            1705,
+            1717,
             {
                 "synapse/metrics": 1,
                 "synapse/crypto": 14,
                 "synapse/server": 1,
-                "synapse/app": 20,
+                "synapse/app": 24,
                 "synapse/util": 8,
                 "synapse/appservice": 19,
                 "synapse/notifier": 6,
                 "synapse/groups": 37,
                 "synapse/state": 23,
-                "synapse/storage": 562,
+                "synapse/storage": 569,
                 "synapse/push": 40,
                 "synapse/http": 26,
                 "synapse/module_api": 1,
@@ -88,7 +86,7 @@
                 "synapse/server_notices": 13,
                 "synapse/handlers": 394,
                 "synapse/logging": 1,
-                "synapse/rest": 254,
+                "synapse/rest": 255,
                 "tests/unittest": 3,
                 "tests/crypto": 6,
                 "tests/test_federation": 1,
