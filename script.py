@@ -9,6 +9,7 @@ from git import Repo
 # Constants.
 INITIAL_COMMIT = "4f475c7697722e946e39e42f38f3dd03a95d8765"
 SYNAPSE_DIR = Path(".") / "synapse"
+PATHS = ("synapse", "tests", "contrib", "docs", "scripts")
 
 # Start at the nearest Monday.
 day = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
@@ -21,11 +22,11 @@ repo = Repo(SYNAPSE_DIR)
 origin = repo.remotes[0]
 origin.fetch()
 
-def search(string):
+def search(string, root, paths):
     result = subprocess.run(
-        ["grep", "-rE", "\\b" + string + "\\b", "synapse", "tests", "contrib", "docs", "scripts"],
+        ["grep", "-rE", "\\b" + string + "\\b", *paths],
         capture_output=True,
-        cwd=SYNAPSE_DIR)
+        cwd=root)
 
     total = 0
     by_module = defaultdict(int)
@@ -59,13 +60,13 @@ for it, commit in enumerate(repo.iter_commits("origin/develop")):
         repo.head.reset(index=True, working_tree=True)
 
         # Find the number of inlineCallback functions.
-        inlineCallbacks_result = search("(inlineCallbacks|cachedInlineCallbacks)")
+        inlineCallbacks_result = search("(inlineCallbacks|cachedInlineCallbacks)", SYNAPSE_DIR, PATHS)
 
         # Additional helpers.
-        deferreds_results = search("(ensureDeferred|maybeDeferred|succeed|failure)\\(")
+        deferreds_results = search("(ensureDeferred|maybeDeferred|succeed|failure)\\(", SYNAPSE_DIR, PATHS)
 
         # Find the number of async functions.
-        async_result = search("async def")
+        async_result = search("async def", SYNAPSE_DIR, PATHS)
 
         print(commit, inlineCallbacks_result[0], deferreds_results[0], async_result[0])
 
