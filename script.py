@@ -11,6 +11,8 @@ Project = namedtuple("Project", ("name", "initial_commit", "branch", "paths"))
 # Constants.
 PROJECTS = (
     Project("synapse", "4f475c7697722e946e39e42f38f3dd03a95d8765", "develop", ("synapse", "tests", "contrib", "docs", "scripts")),
+    Project("sydent", "2360cd427fb5cbebd34baa02ccb05ca2211eab63", "main", ("sydent", "tests", "matrix_is_test", "docs", "scripts")),
+    Project("sygnal", "2eb2dd4eb6d83a17f260af02731940427e67feea", "main", ("sygnal", "tests", "docs")),
 )
 
 # Start at the nearest Monday.

@@ -2,4 +2,8 @@ __pycache__
 
 .idea/
 .python-version
+
+# Project directories.
 synapse/
+sydent/
+sygnal/
