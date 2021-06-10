@@ -1,7 +1,7 @@
 [
     [
-        "c7f3fb27451038c0f4b80a557f27eae849d55de2",
-        "2021-06-08 11:19:25",
+        "e6245e6d48bcb0a1d426b73d010988e0f2d92b35",
+        "2021-06-10 06:40:24",
         [
             163,
             {
@@ -58,7 +58,7 @@
             }
         ],
         [
-            2023,
+            2048,
             {
                 "synapse/metrics": 1,
                 "synapse/crypto": 16,
@@ -74,15 +74,15 @@
                 "synapse/push": 42,
                 "synapse/http": 28,
                 "synapse/module_api": 6,
-                "synapse/federation": 161,
+                "synapse/federation": 169,
                 "synapse/api": 14,
                 "synapse/visibility": 2,
-                "synapse/replication": 71,
+                "synapse/replication": 75,
                 "synapse/events": 24,
                 "synapse/server_notices": 13,
-                "synapse/handlers": 471,
+                "synapse/handlers": 480,
                 "synapse/logging": 1,
-                "synapse/rest": 296,
+                "synapse/rest": 298,
                 "tests/unittest": 3,
                 "tests/crypto": 9,
                 "tests/test_federation": 1,
@@ -94,7 +94,7 @@
                 "tests/test_server": 5,
                 "tests/utils": 3,
                 "tests/http": 3,
-                "tests/federation": 2,
+                "tests/federation": 4,
                 "tests/replication": 2,
                 "tests/events": 2,
                 "tests/handlers": 14,
