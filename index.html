@@ -41,16 +41,17 @@
 
 <body>
     <div id="tools">
-        <select id="chart-chooser" onchange="showCharts();">
-            <option value="all">All modules</option>
-            <option value="synapse" selected>Synapse-only</option>
-        </select>
-        <button onclick="resetZoom();">Click to Reset Zoom</button>
+        <form>
+            <select id="project-dropdown" onchange="updateProject();"></select>
+            <input id="all-modules" type="checkbox" onchange="updateProject();">
+                <label>Include all modules</label>
+            </input>
+            <button onclick="resetZoom();">Click to Reset Zoom</button>
+        </form>
     </div>
 
-    <div>
-        <canvas id="all" style="display: none;"></canvas>
-        <canvas id="synapse"></canvas>
+    <div id="chart-content">
+        <!-- Contains canvas elements for each chart. -->
     </div>
 
     <div>
@@ -63,22 +64,58 @@
         You can drag to zoom to a portion of the graph above.
     </div>
 
-    <div>
+    <div id="snapshot-content">
         <h3>Details of latest snapshot</h3>
-        <h5>Commit <span id="snapshot-commit"></span></h5>
-        <h5>From <span id="snapshot-when"></span></h5>
 
-        <table id="snapshot">
-            <tr>
-                <th>Module</th>
-                <th>inlineCallbacks<br>cachedInlineCallbacks</th>
-                <th>ensureDeferred<br>maybeDeferred<br>succeed<br>failure</th>
-                <th>async</th>
-            </tr>
-        </table>
+        <!-- Contains details of each snapshot. -->
     </div>
 
     <script>
+        /**
+         * Reset the zoom on all of the charts.
+         */
+        function resetZoom() {
+            let projectDropdown = document.getElementById('project-dropdown');
+            for (let option of projectDropdown.options) {
+                const project = option.value;
+                for (let id of [project + '-all', project]) {
+                    window[id].resetZoom();
+                }
+            }
+
+        }
+
+        /**
+         * Update the chart to show the select project (and whether it is all
+         * modules or not).
+         */
+        function updateProject() {
+            let projectDropdown = document.getElementById('project-dropdown');
+            let allModules = document.getElementById('all-modules').checked;
+            // Iterate through each project and set whether it should be shown
+            // or hidden.
+            for (let option of projectDropdown.options) {
+                const project = option.value;
+                let projectChart = document.getElementById(project);
+                let projectAllChart = document.getElementById(project + "-all");
+                let projectSnapshot = document.getElementById(project + "-snapshot");
+                if (option.selected) {
+                    if (allModules) {
+                        projectChart.style.display = 'none';
+                        projectAllChart.style.display = 'block';
+                    } else {
+                        projectChart.style.display = 'block';
+                        projectAllChart.style.display = 'none';
+                    }
+                    projectSnapshot.style.display = 'block';
+                } else {
+                    projectChart.style.display = 'none';
+                    projectAllChart.style.display = 'none';
+                    projectSnapshot.style.display = 'none';
+                }
+            }
+        }
+
         var configTemplate = {
             type: 'line',
             options: {
@@ -128,140 +165,170 @@
 
         function sum_data(data, module) {
             let sum = 0;
-            for (let module_name in data) {
-                if (module_name.startsWith(module + "/")) {
-                    sum += data[module_name];
+            for (let moduleName in data) {
+                if (moduleName.startsWith(module + "/")) {
+                    sum += data[moduleName];
                 }
             }
             return sum;
         }
 
         fetch("results.json").then(response => response.json()).then(data => {
-            for (let id of ['all', 'synapse']) {
-                // Generate the data points from the raw data.
-                let labels = [];
-                let inlineCallbacks = [];
-                let deferreds = []
-                let asyncDefs = [];
+            const projectDropdown = document.getElementById("project-dropdown");
+            const chartContent = document.getElementById("chart-content");
+            const snapshotContent = document.getElementById("snapshot-content");
 
-                for (let d of data.reverse()) {
-                    labels.push(d[1]);
-                    // If looking at all data, pull the total out, otherwise
-                    // look for module specific data.
-                    if (id == 'all') {
-                        inlineCallbacks.push(d[2][0]);
-                        deferreds.push(d[3][0]);
-                        asyncDefs.push(d[4][0]);
-                    } else {
-                        inlineCallbacks.push(sum_data(d[2][1], id));
-                        deferreds.push(sum_data(d[3][1], id));
-                        asyncDefs.push(sum_data(d[4][1], id));
+            for (let project in data) {
+                let project_data = data[project];
+
+                // Add it to the drop down.
+                projectDropdown.options[projectDropdown.options.length] = new Option(project, project);
+
+                // Parse both the data for all modules and for just the project module.
+                for (const id of [project + '-all', project]) {
+                    // Create a canvas for this graph.
+                    let canvas = document.createElement("canvas");
+                    canvas.id = id;
+                    if (id != 'synapse') {
+                        canvas.style.display = "none";
                     }
-                }
+                    chartContent.appendChild(canvas);
 
-                // Finish up the config.
-                let config = Object.assign({}, configTemplate);
-                config.data = {
-                    labels: labels,
-                    datasets: [
-                        {
-                            label: 'inlineCallbacks / cachedInlineCallbacks',
-                            borderColor: "rgb(255, 99, 132)",  // Red
-                            backgroundColor: "rgb(255, 99, 132)",
-                            data: inlineCallbacks,
-                        },
-                        {
-                            label: 'ensureDeferred / maybeDeferred / succeed / failure',
-                            borderColor: "rgb(75, 192, 192)",  // Green
-                            backgroundColor: "rgb(75, 192, 192)",
-                            data: deferreds,
-                        },
-                        {
-                            label: 'async',
-                            borderColor: "rgb(54, 162, 235)",  // Blue
-                            backgroundColor: "rgb(54, 162, 235)",
-                            data: asyncDefs,
-                        },
-                    ]
-                };
+                    // Generate the data points from the raw data.
+                    let labels = [];
+                    let inlineCallbacks = [];
+                    let deferreds = []
+                    let asyncDefs = [];
 
-                // Render the graph.
-                let ctx = document.getElementById(id).getContext('2d');
-
-                window[id] = new Chart(ctx, config);
-            }
-
-            // Also fill in the snapshot table.
-            let snapshot = data[0];
-            document.getElementById("snapshot-commit").innerText = snapshot[0];
-            document.getElementById("snapshot-when").innerText = snapshot[1];
-            let modules = {};
-            let idxs = [2, 3, 4];
-            for (let i = 0; i < idxs.length; ++i) {
-                let idx = idxs[i];
-
-                // Iterate each module in the data and add the counts.
-                for (let module_name in snapshot[idx][1]) {
-                    let count = snapshot[idx][1][module_name];
-                    if (!modules[module_name]) {
-                        // Fill previous entries with 0.
-                        let data = [];
-                        for (let j = 0; j < i; ++j) {
-                            data.push(0);
+                    for (let d of project_data.reverse()) {
+                        labels.push(d[1]);
+                        // If looking at all data, pull the total out, otherwise
+                        // look for module specific data.
+                        if (id.endsWith('-all')) {
+                            inlineCallbacks.push(d[2][0]);
+                            deferreds.push(d[3][0]);
+                            asyncDefs.push(d[4][0]);
+                        } else {
+                            inlineCallbacks.push(sum_data(d[2][1], project));
+                            deferreds.push(sum_data(d[3][1], project));
+                            asyncDefs.push(sum_data(d[4][1], project));
                         }
-                        modules[module_name] = data;
                     }
-                    modules[module_name].push(count);
+
+                    // Finish up the config.
+                    let config = Object.assign({}, configTemplate);
+                    config.data = {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'inlineCallbacks / cachedInlineCallbacks',
+                                borderColor: "rgb(255, 99, 132)",  // Red
+                                backgroundColor: "rgb(255, 99, 132)",
+                                data: inlineCallbacks,
+                            },
+                            {
+                                label: 'ensureDeferred / maybeDeferred / succeed / failure',
+                                borderColor: "rgb(75, 192, 192)",  // Green
+                                backgroundColor: "rgb(75, 192, 192)",
+                                data: deferreds,
+                            },
+                            {
+                                label: 'async',
+                                borderColor: "rgb(54, 162, 235)",  // Blue
+                                backgroundColor: "rgb(54, 162, 235)",
+                                data: asyncDefs,
+                            },
+                        ]
+                    };
+
+                    // Render the graph.
+                    let ctx = document.getElementById(id).getContext('2d');
+
+                    window[id] = new Chart(ctx, config);
                 }
 
-                // Iterate each module in the mapping and ensure they have the
-                // proper number of entries.
-                if (i == 0) {
-                    continue;
+                // Also generate some snapshot metadata.
+                let snapshot = project_data[0];
+
+                let snapshotContainer = document.createElement("div");
+                snapshotContainer.id = project + "-snapshot";
+                if (project != 'synapse') {
+                    snapshotContainer.style.display = "none";
                 }
-                for (let module_name in modules) {
-                    if (modules[module_name].length < (i + 1)) {
-                        modules[module_name].push(0);
+
+                let commit = document.createElement("h5");
+                commit.innerText = "Commit " + snapshot[0];
+                snapshotContainer.appendChild(commit);
+                let when = document.createElement("h5");
+                when.innerText = "From " + snapshot[1];
+                snapshotContainer.appendChild(when);
+
+                // Generate module data, which is of the form:
+                //
+                // {
+                //   <module name>: [<count>, <count>, <count>]
+                // }
+                let modules = {};
+                let idxs = [2, 3, 4];
+                for (let i = 0; i < idxs.length; ++i) {
+                    let idx = idxs[i];
+
+                    // Iterate each module in the data and add the counts.
+                    for (let moduleName in snapshot[idx][1]) {
+                        let count = snapshot[idx][1][moduleName];
+                        if (!modules[moduleName]) {
+                            // Fill previous entries with 0.
+                            let data = [];
+                            for (let j = 0; j < i; ++j) {
+                                data.push(0);
+                            }
+                            modules[moduleName] = data;
+                        }
+                        modules[moduleName].push(count);
+                    }
+
+                    // Iterate each module in the mapping and ensure they have the
+                    // proper number of entries.
+                    if (i == 0) {
+                        continue;
+                    }
+                    for (let moduleName in modules) {
+                        if (modules[moduleName].length < (i + 1)) {
+                            modules[moduleName].push(0);
+                        }
                     }
                 }
-            }
 
-            // Finally, actually fill in the table.
-            let module_names = Object.keys(modules).sort();
-            let snapshot_table = document.getElementById("snapshot");
-            for (let module_name of module_names) {
+                // Finally, actually create the table.
+                let moduleNames = Object.keys(modules).sort();
+                let snapshotTable = document.createElement("table");
                 let row = document.createElement("tr");
-                let cell = document.createElement("th");
-                cell.className = "left";
-                cell.innerText = module_name.replace("/", ".");
-                row.appendChild(cell);
-                for (let count of modules[module_name]) {
-                    cell = document.createElement("td");
-                    cell.innerText = count;
+                for (let column of ["Module", "inlineCallbacks<br>cachedInlineCallbacks", "ensureDeferred<br>maybeDeferred<br>succeed<br>failure", "async"]) {
+                    let cell = document.createElement("th");
+                    cell.innerHTML = column;
                     row.appendChild(cell);
                 }
-                snapshot_table.appendChild(row);
+                snapshotTable.appendChild(row);
+
+                for (let moduleName of moduleNames) {
+                    let row = document.createElement("tr");
+                    let cell = document.createElement("th");
+                    cell.className = "left";
+                    cell.innerText = moduleName.replace("/", ".");
+                    row.appendChild(cell);
+                    for (let count of modules[moduleName]) {
+                        cell = document.createElement("td");
+                        cell.innerText = count;
+                        row.appendChild(cell);
+                    }
+                    snapshotTable.appendChild(row);
+                }
+                snapshotContainer.appendChild(snapshotTable)
+
+                // Append the container to the document.
+                snapshotContent.appendChild(snapshotContainer);
             }
         });
-
-        function resetZoom() {
-            for (let id in ['all', 'synapse']) {
-                window[id].resetZoom();
-            }
-        }
-
-        function showCharts() {
-            console.log("HI")
-            let select = document.getElementById('chart-chooser');
-            for (let option of select.children) {
-                let chart = document.getElementById(option.getAttribute('value'));
-                if (option.selected) {
-                    chart.style.display = 'block';
-                } else {
-                    chart.style.display = 'none';
-                }
-            }
-        }
     </script>
 </body>
 

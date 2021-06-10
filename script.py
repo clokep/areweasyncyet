@@ -6,11 +6,11 @@ import subprocess
 
 from git import Repo
 
-Project = namedtuple("Project", ("name", "initial_commit", "paths"))
+Project = namedtuple("Project", ("name", "initial_commit", "branch", "paths"))
 
 # Constants.
 PROJECTS = (
-    Project("synapse", "4f475c7697722e946e39e42f38f3dd03a95d8765", ("synapse", "tests", "contrib", "docs", "scripts")),
+    Project("synapse", "4f475c7697722e946e39e42f38f3dd03a95d8765", "develop", ("synapse", "tests", "contrib", "docs", "scripts")),
 )
 
 # Start at the nearest Monday.
@@ -38,10 +38,31 @@ def search(string, root, paths):
 
     return total, by_module
 
+# The resulting output data.
+#
+# It is of the form of:
+#
+# {
+#   "project": [
+#     <commit hash>, <date as a string>, <inlineCallbacks results>, <Deferred results>, <async results>
+#   ]
+# }
+#
+# Each of the results is of the form:
+#
+# [
+#   <total>,
+#   {
+#     <module name>: <count>
+#   }
+# ]
+data = {}
 
 for project in PROJECTS:
     project_dir = Path(".") / project.name
     repo = Repo(project_dir)
+
+    print(project.name)
 
     # Fetch updated changes.
     origin = repo.remotes[0]
@@ -51,8 +72,8 @@ for project in PROJECTS:
     day = LATEST_MONDAY
 
     # Iterate from the newest to the oldest commit.
-    data = []
-    for it, commit in enumerate(repo.iter_commits("origin/develop")):
+    project_data = []
+    for it, commit in enumerate(repo.iter_commits("origin/" + project.branch)):
         # Get the commit at the start of the day.
         committed_date = datetime.fromtimestamp(commit.committed_date)
         # Always include the latest commit, the earliest commit, and the last commit
@@ -78,7 +99,7 @@ for project in PROJECTS:
 
             print(commit, inlineCallbacks_result[0], deferreds_results[0], async_result[0])
 
-            data.append((
+            project_data.append((
                 commit.hexsha,
                 str(committed_date),
                 inlineCallbacks_result,
@@ -86,5 +107,12 @@ for project in PROJECTS:
                 async_result,
             ))
 
-    with open("results.json", "w") as f:
-        f.write(json.dumps(data, indent=4))
+    # Empty line.
+    print()
+
+    # Store the results.
+    data[project.name] = project_data
+
+# Output the results.
+with open("results.json", "w") as f:
+    f.write(json.dumps(data, indent=4))
