@@ -1,8 +1,8 @@
 {
     "synapse": [
         [
-            "8c97d5863f352e48cb4e64a5b663411a7779686d",
-            "2021-06-17 12:53:27",
+            "f0e02f5df2bc3ae779ac8c18578deebdfecc7e97",
+            "2021-06-24 13:00:56",
             [
                 162,
                 {
@@ -24,7 +24,7 @@
                 }
             ],
             [
-                265,
+                264,
                 {
                     "synapse/metrics": 1,
                     "synapse/app": 2,
@@ -32,7 +32,6 @@
                     "synapse/notifier": 1,
                     "synapse/http": 2,
                     "synapse/module_api": 10,
-                    "synapse/handlers": 1,
                     "synapse/logging": 3,
                     "tests/unittest": 3,
                     "tests/crypto": 2,
@@ -58,11 +57,116 @@
                 }
             ],
             [
-                2054,
+                2080,
                 {
                     "synapse/metrics": 1,
                     "synapse/crypto": 16,
-                    "synapse/app": 10,
+                    "synapse/app": 8,
+                    "synapse/util": 18,
+                    "synapse/appservice": 20,
+                    "synapse/streams": 1,
+                    "synapse/notifier": 5,
+                    "synapse/groups": 35,
+                    "synapse/types": 4,
+                    "synapse/state": 24,
+                    "synapse/storage": 634,
+                    "synapse/push": 42,
+                    "synapse/http": 28,
+                    "synapse/module_api": 6,
+                    "synapse/federation": 170,
+                    "synapse/api": 14,
+                    "synapse/visibility": 2,
+                    "synapse/replication": 77,
+                    "synapse/events": 24,
+                    "synapse/server_notices": 13,
+                    "synapse/handlers": 481,
+                    "synapse/logging": 1,
+                    "synapse/rest": 301,
+                    "tests/unittest": 3,
+                    "tests/crypto": 9,
+                    "tests/test_federation": 1,
+                    "tests/util": 17,
+                    "tests/test_utils": 4,
+                    "tests/test_state": 5,
+                    "tests/storage": 12,
+                    "tests/push": 2,
+                    "tests/test_server": 5,
+                    "tests/utils": 3,
+                    "tests/http": 3,
+                    "tests/federation": 4,
+                    "tests/replication": 2,
+                    "tests/events": 2,
+                    "tests/handlers": 23,
+                    "tests/rest": 23,
+                    "docs/presence_router_module": 5,
+                    "docs/modules": 9,
+                    "docs/spam_checker": 8,
+                    "scripts/synapse_port_db": 15
+                }
+            ]
+        ],
+        [
+            "7c536d0fefe778499a5a7a24d88578c4c62815f8",
+            "2021-06-18 14:26:25",
+            [
+                162,
+                {
+                    "synapse/util": 9,
+                    "synapse/http": 1,
+                    "synapse/module_api": 3,
+                    "tests/util": 34,
+                    "tests/appservice": 10,
+                    "tests/test_visibility": 7,
+                    "tests/test_state": 12,
+                    "tests/storage": 32,
+                    "tests/utils": 1,
+                    "tests/http": 7,
+                    "tests/rest": 8,
+                    "contrib/experiments": 3,
+                    "contrib/cmdclient": 13,
+                    "docs/log_contexts": 21,
+                    "scripts/synapse_port_db": 1
+                }
+            ],
+            [
+                264,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/app": 2,
+                    "synapse/util": 7,
+                    "synapse/notifier": 1,
+                    "synapse/http": 2,
+                    "synapse/module_api": 10,
+                    "synapse/logging": 3,
+                    "tests/unittest": 3,
+                    "tests/crypto": 2,
+                    "tests/server": 1,
+                    "tests/test_federation": 3,
+                    "tests/util": 29,
+                    "tests/appservice": 27,
+                    "tests/test_visibility": 12,
+                    "tests/state": 8,
+                    "tests/test_state": 27,
+                    "tests/storage": 38,
+                    "tests/utils": 1,
+                    "tests/http": 37,
+                    "tests/module_api": 2,
+                    "tests/federation": 3,
+                    "tests/server_notices": 10,
+                    "tests/handlers": 20,
+                    "tests/rest": 9,
+                    "contrib/experiments": 1,
+                    "contrib/cmdclient": 3,
+                    "docs/manhole": 1,
+                    "scripts/synapse_port_db": 1
+                }
+            ],
+            [
+                2063,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/crypto": 16,
+                    "synapse/app": 8,
                     "synapse/util": 18,
                     "synapse/appservice": 20,
                     "synapse/streams": 1,
@@ -80,7 +184,7 @@
                     "synapse/replication": 77,
                     "synapse/events": 24,
                     "synapse/server_notices": 13,
-                    "synapse/handlers": 481,
+                    "synapse/handlers": 479,
                     "synapse/logging": 1,
                     "synapse/rest": 298,
                     "tests/unittest": 3,
@@ -97,9 +201,10 @@
                     "tests/federation": 4,
                     "tests/replication": 2,
                     "tests/events": 2,
-                    "tests/handlers": 14,
+                    "tests/handlers": 18,
                     "tests/rest": 23,
                     "docs/presence_router_module": 5,
+                    "docs/modules": 9,
                     "docs/spam_checker": 8,
                     "scripts/synapse_port_db": 15
                 }
@@ -27486,30 +27591,63 @@
     ],
     "sydent": [
         [
-            "b798a834204afcb521cfd08fe6ee192827978dd5",
-            "2021-06-15 18:10:34",
+            "f5a5bbfd31c77cc74ed08a5a78740617b5105e43",
+            "2021-06-24 15:05:56",
             [
-                15,
+                2,
+                {
+                    "sydent/http": 2
+                }
+            ],
+            [
+                8,
+                {
+                    "sydent/http": 4,
+                    "sydent/replication": 2,
+                    "sydent/threepid": 1,
+                    "tests/utils": 1
+                }
+            ],
+            [
+                16,
                 {
                     "sydent/hs_federation": 3,
                     "sydent/sms": 1,
-                    "sydent/http": 9,
+                    "sydent/http": 7,
                     "sydent/replication": 1,
+                    "sydent/threepid": 1,
+                    "tests/test_invites": 2,
+                    "tests/utils": 1
+                }
+            ]
+        ],
+        [
+            "ad23546e85f8d0cb2199a602a5072c77f79767d3",
+            "2021-06-18 13:47:24",
+            [
+                12,
+                {
+                    "sydent/hs_federation": 3,
+                    "sydent/http": 8,
                     "sydent/threepid": 1
                 }
             ],
             [
-                6,
+                8,
                 {
-                    "sydent/http": 1,
-                    "sydent/replication": 1,
+                    "sydent/http": 2,
+                    "sydent/replication": 2,
                     "tests/test_blacklisting": 3,
                     "tests/utils": 1
                 }
             ],
             [
-                0,
-                {}
+                3,
+                {
+                    "sydent/sms": 1,
+                    "sydent/http": 1,
+                    "sydent/replication": 1
+                }
             ]
         ],
         [
@@ -35286,6 +35424,41 @@
         ]
     ],
     "sygnal": [
+        [
+            "8cbe3d6b21e60987beb83ca21db5675fbdcc3e14",
+            "2021-06-24 08:52:45",
+            [
+                1,
+                {
+                    "sygnal/sygnal": 1
+                }
+            ],
+            [
+                4,
+                {
+                    "sygnal/sygnal": 1,
+                    "sygnal/http": 1,
+                    "tests/testutils": 2
+                }
+            ],
+            [
+                27,
+                {
+                    "sygnal/apnspushkin": 3,
+                    "sygnal/gcmpushkin": 8,
+                    "sygnal/sygnal": 2,
+                    "sygnal/webpushpushkin": 1,
+                    "sygnal/utils": 1,
+                    "sygnal/http": 2,
+                    "sygnal/notifications": 4,
+                    "sygnal/helper": 2,
+                    "tests/testutils": 1,
+                    "tests/test_gcm": 1,
+                    "tests/test_pushgateway_api_v1": 1,
+                    "tests/test_concurrency_limit": 1
+                }
+            ]
+        ],
         [
             "85b2f173cfbbbc0fb4743e1a6b43d0e8200e50c6",
             "2021-06-11 09:33:36",
