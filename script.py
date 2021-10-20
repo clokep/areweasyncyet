@@ -32,6 +32,7 @@ def search(string, root, paths):
     for line in result.stdout.splitlines():
         filename, match = line.split(b":", 1)
         filename = filename.decode("ascii")
+        # Trim to the second-level module (e.g. foo.bar.* all gets grouped together).
         module = "/".join(filename.split("/", 2)[:2])
         # If there's a file extension, strip it off.
         module = module.split(".")[0]
@@ -39,6 +40,7 @@ def search(string, root, paths):
         by_module[module] += 1
 
     return total, by_module
+
 
 # The resulting output data.
 #
