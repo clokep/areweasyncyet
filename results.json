@@ -1,8 +1,652 @@
 {
     "synapse": [
         [
-            "57501d919458f71f6505e7474e9825c00bc8ec87",
-            "2021-10-20 13:49:20",
+            "637df95de63196033a6da4a6e286e1d58ea517b6",
+            "2021-12-03 11:42:44",
+            [
+                111,
+                {
+                    "synapse/util": 9,
+                    "synapse/http": 1,
+                    "synapse/module_api": 3,
+                    "tests/util": 34,
+                    "tests/appservice": 10,
+                    "tests/test_state": 12,
+                    "tests/storage": 9,
+                    "tests/utils": 1,
+                    "tests/http": 7,
+                    "tests/rest": 8,
+                    "contrib/experiments": 3,
+                    "contrib/cmdclient": 13,
+                    "scripts/synapse_port_db": 1
+                }
+            ],
+            [
+                253,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/app": 2,
+                    "synapse/util": 8,
+                    "synapse/notifier": 1,
+                    "synapse/http": 2,
+                    "synapse/module_api": 10,
+                    "synapse/logging": 3,
+                    "tests/unittest": 3,
+                    "tests/crypto": 4,
+                    "tests/server": 2,
+                    "tests/test_federation": 2,
+                    "tests/util": 29,
+                    "tests/appservice": 20,
+                    "tests/state": 8,
+                    "tests/test_state": 27,
+                    "tests/storage": 19,
+                    "tests/utils": 1,
+                    "tests/http": 37,
+                    "tests/module_api": 8,
+                    "tests/federation": 3,
+                    "tests/server_notices": 10,
+                    "tests/handlers": 37,
+                    "tests/rest": 9,
+                    "contrib/experiments": 1,
+                    "contrib/cmdclient": 3,
+                    "docs/manhole": 1,
+                    "scripts/synapse_port_db": 1,
+                    "scripts/update_synapse_database": 1
+                }
+            ],
+            [
+                2339,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/crypto": 17,
+                    "synapse/app": 9,
+                    "synapse/util": 20,
+                    "synapse/appservice": 20,
+                    "synapse/streams": 2,
+                    "synapse/notifier": 7,
+                    "synapse/groups": 35,
+                    "synapse/types": 4,
+                    "synapse/state": 24,
+                    "synapse/storage": 694,
+                    "synapse/push": 43,
+                    "synapse/http": 30,
+                    "synapse/module_api": 17,
+                    "synapse/federation": 216,
+                    "synapse/api": 22,
+                    "synapse/visibility": 2,
+                    "synapse/replication": 77,
+                    "synapse/events": 32,
+                    "synapse/server_notices": 13,
+                    "synapse/handlers": 514,
+                    "synapse/logging": 1,
+                    "synapse/rest": 320,
+                    "tests/unittest": 3,
+                    "tests/crypto": 11,
+                    "tests/test_federation": 2,
+                    "tests/util": 17,
+                    "tests/test_utils": 4,
+                    "tests/test_state": 5,
+                    "tests/storage": 18,
+                    "tests/push": 2,
+                    "tests/test_server": 5,
+                    "tests/utils": 3,
+                    "tests/http": 3,
+                    "tests/federation": 4,
+                    "tests/api": 1,
+                    "tests/replication": 2,
+                    "tests/events": 4,
+                    "tests/handlers": 32,
+                    "tests/rest": 34,
+                    "docs/log_contexts": 10,
+                    "docs/presence_router_module": 5,
+                    "docs/spam_checker": 8,
+                    "docs/modules": 30,
+                    "scripts/synapse_port_db": 15,
+                    "scripts/update_synapse_database": 1
+                }
+            ]
+        ],
+        [
+            "e5c5e213ea44a2fbc7f5bb75e1e577fc899bbd62",
+            "2021-11-26 15:51:22",
+            [
+                141,
+                {
+                    "synapse/util": 9,
+                    "synapse/http": 1,
+                    "synapse/module_api": 3,
+                    "tests/util": 34,
+                    "tests/appservice": 10,
+                    "tests/test_visibility": 7,
+                    "tests/test_state": 12,
+                    "tests/storage": 32,
+                    "tests/utils": 1,
+                    "tests/http": 7,
+                    "tests/rest": 8,
+                    "contrib/experiments": 3,
+                    "contrib/cmdclient": 13,
+                    "scripts/synapse_port_db": 1
+                }
+            ],
+            [
+                283,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/app": 2,
+                    "synapse/util": 8,
+                    "synapse/notifier": 1,
+                    "synapse/http": 2,
+                    "synapse/module_api": 10,
+                    "synapse/logging": 3,
+                    "tests/unittest": 3,
+                    "tests/crypto": 2,
+                    "tests/server": 2,
+                    "tests/test_federation": 2,
+                    "tests/util": 29,
+                    "tests/appservice": 20,
+                    "tests/test_visibility": 12,
+                    "tests/state": 8,
+                    "tests/test_state": 27,
+                    "tests/storage": 39,
+                    "tests/utils": 1,
+                    "tests/http": 37,
+                    "tests/module_api": 8,
+                    "tests/federation": 3,
+                    "tests/server_notices": 10,
+                    "tests/handlers": 37,
+                    "tests/rest": 9,
+                    "contrib/experiments": 1,
+                    "contrib/cmdclient": 3,
+                    "docs/manhole": 1,
+                    "scripts/synapse_port_db": 1,
+                    "scripts/update_synapse_database": 1
+                }
+            ],
+            [
+                2320,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/crypto": 17,
+                    "synapse/app": 9,
+                    "synapse/util": 20,
+                    "synapse/appservice": 20,
+                    "synapse/streams": 2,
+                    "synapse/notifier": 7,
+                    "synapse/groups": 35,
+                    "synapse/types": 4,
+                    "synapse/state": 24,
+                    "synapse/storage": 687,
+                    "synapse/push": 43,
+                    "synapse/http": 30,
+                    "synapse/module_api": 15,
+                    "synapse/federation": 211,
+                    "synapse/api": 22,
+                    "synapse/visibility": 2,
+                    "synapse/replication": 77,
+                    "synapse/events": 32,
+                    "synapse/server_notices": 13,
+                    "synapse/handlers": 513,
+                    "synapse/logging": 1,
+                    "synapse/rest": 319,
+                    "tests/unittest": 3,
+                    "tests/crypto": 10,
+                    "tests/test_federation": 2,
+                    "tests/util": 17,
+                    "tests/test_utils": 4,
+                    "tests/test_state": 5,
+                    "tests/storage": 18,
+                    "tests/push": 2,
+                    "tests/test_server": 5,
+                    "tests/utils": 3,
+                    "tests/http": 3,
+                    "tests/federation": 4,
+                    "tests/api": 1,
+                    "tests/replication": 2,
+                    "tests/events": 4,
+                    "tests/handlers": 32,
+                    "tests/rest": 34,
+                    "docs/log_contexts": 10,
+                    "docs/presence_router_module": 5,
+                    "docs/spam_checker": 8,
+                    "docs/modules": 28,
+                    "scripts/synapse_port_db": 15,
+                    "scripts/update_synapse_database": 1
+                }
+            ]
+        ],
+        [
+            "d9e9771d6b5a92d2eb0b98b7b6437b25c5ec314e",
+            "2021-11-19 17:01:55",
+            [
+                141,
+                {
+                    "synapse/util": 9,
+                    "synapse/http": 1,
+                    "synapse/module_api": 3,
+                    "tests/util": 34,
+                    "tests/appservice": 10,
+                    "tests/test_visibility": 7,
+                    "tests/test_state": 12,
+                    "tests/storage": 32,
+                    "tests/utils": 1,
+                    "tests/http": 7,
+                    "tests/rest": 8,
+                    "contrib/experiments": 3,
+                    "contrib/cmdclient": 13,
+                    "scripts/synapse_port_db": 1
+                }
+            ],
+            [
+                282,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/app": 2,
+                    "synapse/util": 8,
+                    "synapse/notifier": 1,
+                    "synapse/http": 2,
+                    "synapse/module_api": 10,
+                    "synapse/logging": 3,
+                    "tests/unittest": 3,
+                    "tests/crypto": 2,
+                    "tests/server": 2,
+                    "tests/test_federation": 2,
+                    "tests/util": 29,
+                    "tests/appservice": 20,
+                    "tests/test_visibility": 12,
+                    "tests/state": 8,
+                    "tests/test_state": 27,
+                    "tests/storage": 38,
+                    "tests/utils": 1,
+                    "tests/http": 37,
+                    "tests/module_api": 8,
+                    "tests/federation": 3,
+                    "tests/server_notices": 10,
+                    "tests/handlers": 37,
+                    "tests/rest": 9,
+                    "contrib/experiments": 1,
+                    "contrib/cmdclient": 3,
+                    "docs/manhole": 1,
+                    "scripts/synapse_port_db": 1,
+                    "scripts/update_synapse_database": 1
+                }
+            ],
+            [
+                2320,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/crypto": 17,
+                    "synapse/app": 9,
+                    "synapse/util": 20,
+                    "synapse/appservice": 20,
+                    "synapse/streams": 2,
+                    "synapse/notifier": 7,
+                    "synapse/groups": 35,
+                    "synapse/types": 4,
+                    "synapse/state": 24,
+                    "synapse/storage": 688,
+                    "synapse/push": 43,
+                    "synapse/http": 30,
+                    "synapse/module_api": 15,
+                    "synapse/federation": 211,
+                    "synapse/api": 22,
+                    "synapse/visibility": 2,
+                    "synapse/replication": 77,
+                    "synapse/events": 31,
+                    "synapse/server_notices": 13,
+                    "synapse/handlers": 513,
+                    "synapse/logging": 1,
+                    "synapse/rest": 319,
+                    "tests/unittest": 3,
+                    "tests/crypto": 10,
+                    "tests/test_federation": 2,
+                    "tests/util": 17,
+                    "tests/test_utils": 4,
+                    "tests/test_state": 5,
+                    "tests/storage": 18,
+                    "tests/push": 2,
+                    "tests/test_server": 5,
+                    "tests/utils": 3,
+                    "tests/http": 3,
+                    "tests/federation": 4,
+                    "tests/api": 1,
+                    "tests/replication": 2,
+                    "tests/events": 4,
+                    "tests/handlers": 32,
+                    "tests/rest": 34,
+                    "docs/log_contexts": 10,
+                    "docs/presence_router_module": 5,
+                    "docs/spam_checker": 8,
+                    "docs/modules": 28,
+                    "scripts/synapse_port_db": 15,
+                    "scripts/update_synapse_database": 1
+                }
+            ]
+        ],
+        [
+            "605921bc6b3d3f48142e3c8b5ddcc6c2a0016062",
+            "2021-11-12 19:47:56",
+            [
+                141,
+                {
+                    "synapse/util": 9,
+                    "synapse/http": 1,
+                    "synapse/module_api": 3,
+                    "tests/util": 34,
+                    "tests/appservice": 10,
+                    "tests/test_visibility": 7,
+                    "tests/test_state": 12,
+                    "tests/storage": 32,
+                    "tests/utils": 1,
+                    "tests/http": 7,
+                    "tests/rest": 8,
+                    "contrib/experiments": 3,
+                    "contrib/cmdclient": 13,
+                    "scripts/synapse_port_db": 1
+                }
+            ],
+            [
+                278,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/app": 2,
+                    "synapse/util": 8,
+                    "synapse/notifier": 1,
+                    "synapse/http": 2,
+                    "synapse/module_api": 10,
+                    "synapse/logging": 3,
+                    "tests/unittest": 3,
+                    "tests/crypto": 2,
+                    "tests/server": 2,
+                    "tests/test_federation": 2,
+                    "tests/util": 29,
+                    "tests/appservice": 20,
+                    "tests/test_visibility": 12,
+                    "tests/state": 8,
+                    "tests/test_state": 27,
+                    "tests/storage": 38,
+                    "tests/utils": 1,
+                    "tests/http": 37,
+                    "tests/module_api": 8,
+                    "tests/federation": 3,
+                    "tests/server_notices": 10,
+                    "tests/handlers": 33,
+                    "tests/rest": 9,
+                    "contrib/experiments": 1,
+                    "contrib/cmdclient": 3,
+                    "docs/manhole": 1,
+                    "scripts/synapse_port_db": 1,
+                    "scripts/update_synapse_database": 1
+                }
+            ],
+            [
+                2307,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/crypto": 17,
+                    "synapse/app": 8,
+                    "synapse/util": 19,
+                    "synapse/appservice": 20,
+                    "synapse/streams": 2,
+                    "synapse/notifier": 7,
+                    "synapse/groups": 35,
+                    "synapse/types": 4,
+                    "synapse/state": 24,
+                    "synapse/storage": 684,
+                    "synapse/push": 43,
+                    "synapse/http": 30,
+                    "synapse/module_api": 15,
+                    "synapse/federation": 211,
+                    "synapse/api": 22,
+                    "synapse/visibility": 2,
+                    "synapse/replication": 77,
+                    "synapse/events": 31,
+                    "synapse/server_notices": 13,
+                    "synapse/handlers": 511,
+                    "synapse/logging": 1,
+                    "synapse/rest": 315,
+                    "tests/unittest": 3,
+                    "tests/crypto": 9,
+                    "tests/test_federation": 2,
+                    "tests/util": 17,
+                    "tests/test_utils": 4,
+                    "tests/test_state": 5,
+                    "tests/storage": 18,
+                    "tests/push": 2,
+                    "tests/test_server": 5,
+                    "tests/utils": 3,
+                    "tests/http": 3,
+                    "tests/federation": 4,
+                    "tests/api": 1,
+                    "tests/replication": 2,
+                    "tests/events": 4,
+                    "tests/handlers": 32,
+                    "tests/rest": 34,
+                    "docs/log_contexts": 10,
+                    "docs/presence_router_module": 5,
+                    "docs/spam_checker": 8,
+                    "docs/modules": 28,
+                    "scripts/synapse_port_db": 15,
+                    "scripts/update_synapse_database": 1
+                }
+            ]
+        ],
+        [
+            "9799c569bb481622b5882b2008a24e6c4658c431",
+            "2021-11-07 16:18:33",
+            [
+                141,
+                {
+                    "synapse/util": 9,
+                    "synapse/http": 1,
+                    "synapse/module_api": 3,
+                    "tests/util": 34,
+                    "tests/appservice": 10,
+                    "tests/test_visibility": 7,
+                    "tests/test_state": 12,
+                    "tests/storage": 32,
+                    "tests/utils": 1,
+                    "tests/http": 7,
+                    "tests/rest": 8,
+                    "contrib/experiments": 3,
+                    "contrib/cmdclient": 13,
+                    "scripts/synapse_port_db": 1
+                }
+            ],
+            [
+                276,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/app": 2,
+                    "synapse/util": 8,
+                    "synapse/notifier": 1,
+                    "synapse/http": 2,
+                    "synapse/module_api": 10,
+                    "synapse/logging": 3,
+                    "tests/unittest": 3,
+                    "tests/crypto": 2,
+                    "tests/server": 2,
+                    "tests/test_federation": 2,
+                    "tests/util": 29,
+                    "tests/appservice": 20,
+                    "tests/test_visibility": 12,
+                    "tests/state": 8,
+                    "tests/test_state": 27,
+                    "tests/storage": 38,
+                    "tests/utils": 1,
+                    "tests/http": 37,
+                    "tests/module_api": 8,
+                    "tests/federation": 3,
+                    "tests/server_notices": 10,
+                    "tests/handlers": 31,
+                    "tests/rest": 9,
+                    "contrib/experiments": 1,
+                    "contrib/cmdclient": 3,
+                    "docs/manhole": 1,
+                    "scripts/synapse_port_db": 1,
+                    "scripts/update_synapse_database": 1
+                }
+            ],
+            [
+                2288,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/crypto": 17,
+                    "synapse/app": 8,
+                    "synapse/util": 19,
+                    "synapse/appservice": 20,
+                    "synapse/streams": 2,
+                    "synapse/notifier": 7,
+                    "synapse/groups": 35,
+                    "synapse/types": 4,
+                    "synapse/state": 24,
+                    "synapse/storage": 683,
+                    "synapse/push": 43,
+                    "synapse/http": 30,
+                    "synapse/module_api": 15,
+                    "synapse/federation": 210,
+                    "synapse/api": 14,
+                    "synapse/visibility": 2,
+                    "synapse/replication": 77,
+                    "synapse/events": 31,
+                    "synapse/server_notices": 13,
+                    "synapse/handlers": 510,
+                    "synapse/logging": 1,
+                    "synapse/rest": 309,
+                    "tests/unittest": 3,
+                    "tests/crypto": 9,
+                    "tests/test_federation": 2,
+                    "tests/util": 17,
+                    "tests/test_utils": 4,
+                    "tests/test_state": 5,
+                    "tests/storage": 18,
+                    "tests/push": 2,
+                    "tests/test_server": 5,
+                    "tests/utils": 3,
+                    "tests/http": 3,
+                    "tests/federation": 4,
+                    "tests/replication": 2,
+                    "tests/events": 4,
+                    "tests/handlers": 32,
+                    "tests/rest": 33,
+                    "docs/log_contexts": 10,
+                    "docs/presence_router_module": 5,
+                    "docs/spam_checker": 8,
+                    "docs/modules": 28,
+                    "scripts/synapse_port_db": 15,
+                    "scripts/update_synapse_database": 1
+                }
+            ]
+        ],
+        [
+            "bfd7a9b65c5e092c6a7ccdd46e59a278b1cbbd57",
+            "2021-10-29 13:43:51",
+            [
+                141,
+                {
+                    "synapse/util": 9,
+                    "synapse/http": 1,
+                    "synapse/module_api": 3,
+                    "tests/util": 34,
+                    "tests/appservice": 10,
+                    "tests/test_visibility": 7,
+                    "tests/test_state": 12,
+                    "tests/storage": 32,
+                    "tests/utils": 1,
+                    "tests/http": 7,
+                    "tests/rest": 8,
+                    "contrib/experiments": 3,
+                    "contrib/cmdclient": 13,
+                    "scripts/synapse_port_db": 1
+                }
+            ],
+            [
+                276,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/app": 2,
+                    "synapse/util": 8,
+                    "synapse/notifier": 1,
+                    "synapse/http": 2,
+                    "synapse/module_api": 10,
+                    "synapse/logging": 3,
+                    "tests/unittest": 3,
+                    "tests/crypto": 2,
+                    "tests/server": 2,
+                    "tests/test_federation": 2,
+                    "tests/util": 29,
+                    "tests/appservice": 20,
+                    "tests/test_visibility": 12,
+                    "tests/state": 8,
+                    "tests/test_state": 27,
+                    "tests/storage": 38,
+                    "tests/utils": 1,
+                    "tests/http": 37,
+                    "tests/module_api": 8,
+                    "tests/federation": 3,
+                    "tests/server_notices": 10,
+                    "tests/handlers": 31,
+                    "tests/rest": 9,
+                    "contrib/experiments": 1,
+                    "contrib/cmdclient": 3,
+                    "docs/manhole": 1,
+                    "scripts/synapse_port_db": 1,
+                    "scripts/update_synapse_database": 1
+                }
+            ],
+            [
+                2289,
+                {
+                    "synapse/metrics": 1,
+                    "synapse/crypto": 17,
+                    "synapse/app": 8,
+                    "synapse/util": 19,
+                    "synapse/appservice": 20,
+                    "synapse/streams": 2,
+                    "synapse/notifier": 7,
+                    "synapse/groups": 35,
+                    "synapse/types": 4,
+                    "synapse/state": 24,
+                    "synapse/storage": 682,
+                    "synapse/push": 43,
+                    "synapse/http": 30,
+                    "synapse/module_api": 15,
+                    "synapse/federation": 210,
+                    "synapse/api": 14,
+                    "synapse/visibility": 2,
+                    "synapse/replication": 77,
+                    "synapse/events": 31,
+                    "synapse/server_notices": 13,
+                    "synapse/handlers": 510,
+                    "synapse/logging": 1,
+                    "synapse/rest": 310,
+                    "tests/unittest": 3,
+                    "tests/crypto": 9,
+                    "tests/test_federation": 2,
+                    "tests/util": 17,
+                    "tests/test_utils": 4,
+                    "tests/test_state": 5,
+                    "tests/storage": 18,
+                    "tests/push": 2,
+                    "tests/test_server": 5,
+                    "tests/utils": 3,
+                    "tests/http": 3,
+                    "tests/federation": 4,
+                    "tests/replication": 2,
+                    "tests/events": 4,
+                    "tests/handlers": 32,
+                    "tests/rest": 33,
+                    "docs/log_contexts": 10,
+                    "docs/presence_router_module": 5,
+                    "docs/spam_checker": 8,
+                    "docs/modules": 29,
+                    "scripts/synapse_port_db": 15,
+                    "scripts/update_synapse_database": 1
+                }
+            ]
+        ],
+        [
+            "1afc6ecae1f4fdb63e47596fbe88bf93b461c8f9",
+            "2021-10-22 18:21:40",
             [
                 141,
                 {
@@ -57,7 +701,7 @@
                 }
             ],
             [
-                2273,
+                2275,
                 {
                     "synapse/metrics": 1,
                     "synapse/crypto": 16,
@@ -69,7 +713,7 @@
                     "synapse/groups": 35,
                     "synapse/types": 4,
                     "synapse/state": 24,
-                    "synapse/storage": 676,
+                    "synapse/storage": 678,
                     "synapse/push": 43,
                     "synapse/http": 30,
                     "synapse/module_api": 13,
@@ -29382,8 +30026,200 @@
     ],
     "sydent": [
         [
-            "f939a2226bf9f87fe7f3135488ee63bb8a9b0019",
-            "2021-10-20 09:57:40",
+            "143a22520b974ac63987de8dc048891071f299e4",
+            "2021-11-25 09:28:54",
+            [
+                1,
+                {
+                    "sydent/http": 1
+                }
+            ],
+            [
+                7,
+                {
+                    "sydent/http": 3,
+                    "sydent/replication": 2,
+                    "sydent/threepid": 1,
+                    "tests/utils": 1
+                }
+            ],
+            [
+                21,
+                {
+                    "sydent/hs_federation": 3,
+                    "sydent/sms": 1,
+                    "sydent/http": 11,
+                    "sydent/replication": 1,
+                    "sydent/threepid": 1,
+                    "sydent/validators": 1,
+                    "tests/test_invites": 2,
+                    "tests/utils": 1
+                }
+            ]
+        ],
+        [
+            "c5f1300ca04cff3dafe46bff2645262d1c4c84ee",
+            "2021-11-22 15:52:20",
+            [
+                1,
+                {
+                    "sydent/http": 1
+                }
+            ],
+            [
+                7,
+                {
+                    "sydent/http": 3,
+                    "sydent/replication": 2,
+                    "sydent/threepid": 1,
+                    "tests/utils": 1
+                }
+            ],
+            [
+                21,
+                {
+                    "sydent/hs_federation": 3,
+                    "sydent/sms": 1,
+                    "sydent/http": 11,
+                    "sydent/replication": 1,
+                    "sydent/threepid": 1,
+                    "sydent/validators": 1,
+                    "tests/test_invites": 2,
+                    "tests/utils": 1
+                }
+            ]
+        ],
+        [
+            "cf27fce07798c9efeea901ddee4211574840024d",
+            "2021-11-17 06:39:36",
+            [
+                1,
+                {
+                    "sydent/http": 1
+                }
+            ],
+            [
+                7,
+                {
+                    "sydent/http": 3,
+                    "sydent/replication": 2,
+                    "sydent/threepid": 1,
+                    "tests/utils": 1
+                }
+            ],
+            [
+                21,
+                {
+                    "sydent/hs_federation": 3,
+                    "sydent/sms": 1,
+                    "sydent/http": 11,
+                    "sydent/replication": 1,
+                    "sydent/threepid": 1,
+                    "sydent/validators": 1,
+                    "tests/test_invites": 2,
+                    "tests/utils": 1
+                }
+            ]
+        ],
+        [
+            "3f41fee6fda8411f9fa590975cba9f29053fc70e",
+            "2021-11-12 13:16:21",
+            [
+                1,
+                {
+                    "sydent/http": 1
+                }
+            ],
+            [
+                7,
+                {
+                    "sydent/http": 3,
+                    "sydent/replication": 2,
+                    "sydent/threepid": 1,
+                    "tests/utils": 1
+                }
+            ],
+            [
+                21,
+                {
+                    "sydent/hs_federation": 3,
+                    "sydent/sms": 1,
+                    "sydent/http": 11,
+                    "sydent/replication": 1,
+                    "sydent/threepid": 1,
+                    "sydent/validators": 1,
+                    "tests/test_invites": 2,
+                    "tests/utils": 1
+                }
+            ]
+        ],
+        [
+            "92ff7a878a25696365b10cc49e32f5cba32c5960",
+            "2021-11-03 13:17:58",
+            [
+                1,
+                {
+                    "sydent/http": 1
+                }
+            ],
+            [
+                7,
+                {
+                    "sydent/http": 3,
+                    "sydent/replication": 2,
+                    "sydent/threepid": 1,
+                    "tests/utils": 1
+                }
+            ],
+            [
+                21,
+                {
+                    "sydent/hs_federation": 3,
+                    "sydent/sms": 1,
+                    "sydent/http": 11,
+                    "sydent/replication": 1,
+                    "sydent/threepid": 1,
+                    "sydent/validators": 1,
+                    "tests/test_invites": 2,
+                    "tests/utils": 1
+                }
+            ]
+        ],
+        [
+            "7bdaac2774840e1f9697d30515f367c5c8c16866",
+            "2021-10-29 10:46:00",
+            [
+                1,
+                {
+                    "sydent/http": 1
+                }
+            ],
+            [
+                7,
+                {
+                    "sydent/http": 3,
+                    "sydent/replication": 2,
+                    "sydent/threepid": 1,
+                    "tests/utils": 1
+                }
+            ],
+            [
+                21,
+                {
+                    "sydent/hs_federation": 3,
+                    "sydent/sms": 1,
+                    "sydent/http": 11,
+                    "sydent/replication": 1,
+                    "sydent/threepid": 1,
+                    "sydent/validators": 1,
+                    "tests/test_invites": 2,
+                    "tests/utils": 1
+                }
+            ]
+        ],
+        [
+            "a6fff7b12aeb04689ccd98757adeeffbbdb66149",
+            "2021-10-22 10:55:10",
             [
                 1,
                 {
@@ -29444,8 +30280,8 @@
             ]
         ],
         [
-            "d417dd0ceac567c4d4cd4e587d10743828c6250b",
-            "2021-10-08 06:03:59",
+            "ca3ecba6516f9f3302fa118edcab3b8b1d06bee7",
+            "2021-10-08 12:21:11",
             [
                 1,
                 {
@@ -29462,13 +30298,14 @@
                 }
             ],
             [
-                19,
+                21,
                 {
                     "sydent/hs_federation": 3,
                     "sydent/sms": 1,
-                    "sydent/http": 10,
+                    "sydent/http": 11,
                     "sydent/replication": 1,
                     "sydent/threepid": 1,
+                    "sydent/validators": 1,
                     "tests/test_invites": 2,
                     "tests/utils": 1
                 }
@@ -37736,6 +38573,216 @@
         ]
     ],
     "sygnal": [
+        [
+            "4a7367e84476a4b1054b1fe20e9e06f9f66e27f8",
+            "2021-11-22 16:44:32",
+            [
+                1,
+                {
+                    "sygnal/sygnal": 1
+                }
+            ],
+            [
+                4,
+                {
+                    "sygnal/sygnal": 1,
+                    "sygnal/http": 1,
+                    "tests/testutils": 2
+                }
+            ],
+            [
+                23,
+                {
+                    "sygnal/apnspushkin": 3,
+                    "sygnal/gcmpushkin": 4,
+                    "sygnal/sygnal": 2,
+                    "sygnal/webpushpushkin": 1,
+                    "sygnal/utils": 1,
+                    "sygnal/http": 2,
+                    "sygnal/notifications": 4,
+                    "sygnal/helper": 2,
+                    "tests/testutils": 1,
+                    "tests/test_gcm": 1,
+                    "tests/test_pushgateway_api_v1": 1,
+                    "tests/test_concurrency_limit": 1
+                }
+            ]
+        ],
+        [
+            "a262f43cb0370fb243807cfa195d70ed7311a4ca",
+            "2021-11-22 16:29:05",
+            [
+                1,
+                {
+                    "sygnal/sygnal": 1
+                }
+            ],
+            [
+                4,
+                {
+                    "sygnal/sygnal": 1,
+                    "sygnal/http": 1,
+                    "tests/testutils": 2
+                }
+            ],
+            [
+                23,
+                {
+                    "sygnal/apnspushkin": 3,
+                    "sygnal/gcmpushkin": 4,
+                    "sygnal/sygnal": 2,
+                    "sygnal/webpushpushkin": 1,
+                    "sygnal/utils": 1,
+                    "sygnal/http": 2,
+                    "sygnal/notifications": 4,
+                    "sygnal/helper": 2,
+                    "tests/testutils": 1,
+                    "tests/test_gcm": 1,
+                    "tests/test_pushgateway_api_v1": 1,
+                    "tests/test_concurrency_limit": 1
+                }
+            ]
+        ],
+        [
+            "1e2fe1f682424a53ea7c15f87e4fcccb3fd9fe4e",
+            "2021-11-19 15:09:22",
+            [
+                1,
+                {
+                    "sygnal/sygnal": 1
+                }
+            ],
+            [
+                4,
+                {
+                    "sygnal/sygnal": 1,
+                    "sygnal/http": 1,
+                    "tests/testutils": 2
+                }
+            ],
+            [
+                23,
+                {
+                    "sygnal/apnspushkin": 3,
+                    "sygnal/gcmpushkin": 4,
+                    "sygnal/sygnal": 2,
+                    "sygnal/webpushpushkin": 1,
+                    "sygnal/utils": 1,
+                    "sygnal/http": 2,
+                    "sygnal/notifications": 4,
+                    "sygnal/helper": 2,
+                    "tests/testutils": 1,
+                    "tests/test_gcm": 1,
+                    "tests/test_pushgateway_api_v1": 1,
+                    "tests/test_concurrency_limit": 1
+                }
+            ]
+        ],
+        [
+            "219a4c21a99cdd9fe975f05a41d2553ab3610fb5",
+            "2021-11-12 14:50:59",
+            [
+                1,
+                {
+                    "sygnal/sygnal": 1
+                }
+            ],
+            [
+                4,
+                {
+                    "sygnal/sygnal": 1,
+                    "sygnal/http": 1,
+                    "tests/testutils": 2
+                }
+            ],
+            [
+                23,
+                {
+                    "sygnal/apnspushkin": 3,
+                    "sygnal/gcmpushkin": 4,
+                    "sygnal/sygnal": 2,
+                    "sygnal/webpushpushkin": 1,
+                    "sygnal/utils": 1,
+                    "sygnal/http": 2,
+                    "sygnal/notifications": 4,
+                    "sygnal/helper": 2,
+                    "tests/testutils": 1,
+                    "tests/test_gcm": 1,
+                    "tests/test_pushgateway_api_v1": 1,
+                    "tests/test_concurrency_limit": 1
+                }
+            ]
+        ],
+        [
+            "606160515bcdee3c7dae48088a6f82ac20a26d58",
+            "2021-11-05 18:55:41",
+            [
+                1,
+                {
+                    "sygnal/sygnal": 1
+                }
+            ],
+            [
+                4,
+                {
+                    "sygnal/sygnal": 1,
+                    "sygnal/http": 1,
+                    "tests/testutils": 2
+                }
+            ],
+            [
+                23,
+                {
+                    "sygnal/apnspushkin": 3,
+                    "sygnal/gcmpushkin": 4,
+                    "sygnal/sygnal": 2,
+                    "sygnal/webpushpushkin": 1,
+                    "sygnal/utils": 1,
+                    "sygnal/http": 2,
+                    "sygnal/notifications": 4,
+                    "sygnal/helper": 2,
+                    "tests/testutils": 1,
+                    "tests/test_gcm": 1,
+                    "tests/test_pushgateway_api_v1": 1,
+                    "tests/test_concurrency_limit": 1
+                }
+            ]
+        ],
+        [
+            "8d14a6d428aaf23a34feb4a39b07a53087e084db",
+            "2021-10-25 13:09:24",
+            [
+                1,
+                {
+                    "sygnal/sygnal": 1
+                }
+            ],
+            [
+                4,
+                {
+                    "sygnal/sygnal": 1,
+                    "sygnal/http": 1,
+                    "tests/testutils": 2
+                }
+            ],
+            [
+                23,
+                {
+                    "sygnal/apnspushkin": 3,
+                    "sygnal/gcmpushkin": 4,
+                    "sygnal/sygnal": 2,
+                    "sygnal/webpushpushkin": 1,
+                    "sygnal/utils": 1,
+                    "sygnal/http": 2,
+                    "sygnal/notifications": 4,
+                    "sygnal/helper": 2,
+                    "tests/testutils": 1,
+                    "tests/test_gcm": 1,
+                    "tests/test_pushgateway_api_v1": 1,
+                    "tests/test_concurrency_limit": 1
+                }
+            ]
+        ],
         [
             "d8ba80e8be6d161c505feb9b378ec16ca63e4dbf",
             "2021-08-24 07:03:07",
